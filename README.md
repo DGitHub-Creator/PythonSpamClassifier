@@ -1,92 +1,86 @@
+# Spam Classification System
 
-Spam Classification System
-===========
+The Spam Classifier is a machine learning model designed to classify emails as spam or non-spam. This system utilizes the TREC06P dataset and employs Naive Bayes and LSTM models to perform classification tasks.
 
-The Spam Classifier is a machine learning model for classifying emails as spam or non-spam. The model is trained on the TREC06P dataset and uses Naive Bayes and LSTM models to accomplish the classification task.
+## Getting Started
 
-Getting Started
----------------
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Follow these instructions to set up the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them:
+To install the software, you will need the following:
 
-*   Python 3.9
-*   Pip
-*   Git
-*   Conda (Anaconda  or Miniconda)
-*   Other packages are detailed in requirements.txt, and of course I provide environment.yml
+- Python 3.9
+- Pip
+- Git
+- Conda (Anaconda or Miniconda)
+- Additional packages can be found in the `requirements.txt` file, and an `environment.yml` file is provided for convenience.
 
-### Installing
+### Installation
 
-1.  Clone or download the repository to the local computer:
+1. Clone or download the repository to your local computer:
 
-```bash
-git clone https://github.com/DGitHub-Creator/PythonSpamClassifier.git
-```
+   ```bash
+   git clone https://github.com/DGitHub-Creator/PythonSpamClassifier.git
+   ```
 
-2.  Change into the project directory:
+2. Change to the project directory:
 
-```bash
-cd PythonSpamClassifier
-```
+   ```bash
+   cd PythonSpamClassifier
+   ```
 
-3. Create a virtual environment using Conda (optional)
+3. (Optional) Create a virtual environment using Conda:
 
-   First, you can create a conda environment directly using the following command:
+   You can directly create a conda environment using the following command:
 
-```bash
-conda env create -f environment.yml 
-```
+   ```bash
+   conda env create -f environment.yml 
+   ```
 
-​	Or, create a conda environment using these commands:
+   Alternatively, create a conda environment using these commands:
 
-​	（1）Create a Conda virtual environment called "tensorflow_env", using Python version 3.9
+   a. Create a Conda virtual environment called "tensorflow_env" with Python version 3.9:
 
-```bash
-conda create --name tensorflow_env python=3.9
-```
+   ```bash
+   conda create --name tensorflow_env python=3.9
+   ```
 
-​	（2）Activate the virtual environment:
+   b. Activate the virtual environment:
 
-```bash
-conda activate tensorflow_env
-```
+   ```bash
+   conda activate tensorflow_env
+   ```
 
-​	（3）Install the required packages:
+   c. Install the required packages:
 
-```
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Usage
 
-Once the environment is installed, i.e. the required packages are installed, and after activating the environment, you can use the spam filter as follows:
+After setting up the environment and installing the required packages, activate the environment, go to the project directory and use the spam filter as follows:
 
 ```bash
 python GUI.py
 ```
 
-The GUI will display and guide you to enter your email. The emails are then classified as spam or non-spam based on the model you selected and the results are output to the GUI display.
+The graphical user interface (GUI) will appear, prompting you to enter your email. The emails will be classified as spam or non-spam based on the selected model, with results displayed in the GUI.
 
-Built With
-----------
+## Built With
 
-*   [Scikit-learn](https://scikit-learn.org/stable/) - A machine learning library for Python
-*   [Numpy](https://numpy.org/) - A library for working with arrays
-*   [Pandas](https://pandas.pydata.org/) - A library for working with dataframes
-*   [Tensorflow](https://www.tensorflow.org/) - An open-source software library for dataflow and differentiable programming
-*   [Keras](https://keras.io/) - An open-source software library for deep learning
-*   [PyQt5](https://pypi.org/project/PyQt5/) - A set of Python bindings for the Qt libraries for GUI development.
+- [Scikit-learn](https://scikit-learn.org/stable/) - A machine learning library for Python
+- [Numpy](https://numpy.org/) - A library for working with arrays
+- [Pandas](https://pandas.pydata.org/) - A library for working with dataframes
+- [Tensorflow](https://www.tensorflow.org/) - An open-source software library for dataflow and differentiable programming
+- [Keras](https://keras.io/) - An open-source software library for deep learning
+- [PyQt5](https://pypi.org/project/PyQt5/) - A set of Python bindings for the Qt libraries for GUI development
 
-Contributing
-------------
+## Contributing
 
 If you would like to contribute to the project, please fork the repository and submit a pull request.
 
-License
--------
+## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://chat.openai.com/LICENSE.md) file for details.
