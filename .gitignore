@@ -1,0 +1,11 @@
+# 项目排除路径
+/trec06c/
+/trec07p/
+/models/LSTM_model_message_body_glove/variables/variables.data-00000-of-00001
+/models/LSTM_model_message_glove/variables/variables.data-00000-of-00001
+/data/email_0607_full.csv
+/data/cleaned_email_07_full.csv
+/data/email_07_full.csv
+/data/message_body_stem.pickle
+# 项目排除路径
+/trec06p/

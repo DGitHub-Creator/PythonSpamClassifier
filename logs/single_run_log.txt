@@ -1,0 +1,1086 @@
+2023-04-25 16:07:13,331: predict label : [1] This is a spam email.
+2023-04-25 16:09:22,451: predict label : [1] This is a spam email.
+2023-04-25 16:09:52,542: predict label : [1] This is a spam email.
+2023-04-25 16:12:27,315: predict label : [1] This is a spam email.
+2023-04-25 16:13:26,501: predict label : [1] This is a spam email.
+2023-04-25 16:20:52,314: predict label : [1] This is a spam email.
+2023-04-25 16:21:13,585: predict label : [1] This is a spam email.
+2023-04-25 16:21:23,524: predict label : [1] This is a spam email.
+2023-04-25 16:22:32,711: predict label : [1] This is a spam email.
+2023-04-25 16:31:07,817: predict label : [1] This is a spam email.
+2023-04-25 16:33:58,229: predict label : [1] This is a spam email.
+2023-04-25 16:34:31,812: predict label : [1] This is a spam email.
+2023-04-25 16:36:47,255: predict label : [1] This is a spam email.
+2023-04-25 16:37:12,582: predict label : [1] This is a spam email.
+2023-04-25 16:40:09,994: predict label : [1] This is a spam email.
+2023-04-25 16:41:47,151: predict label : [1] This is a spam email.
+2023-04-25 16:47:51,671: predict label : [1] This is a spam email.
+2023-04-25 16:51:27,420: predict label : [1] This is a spam email.
+2023-04-25 16:51:50,560: predict label : [1] This is a spam email.
+2023-04-25 16:56:08,220: predict label : [1] This is a spam email.
+2023-04-25 16:58:36,040: predict label : [1] This is a spam email.
+2023-04-25 17:02:46,415: predict label : [1] This is a spam email.
+2023-04-25 17:03:35,471: predict label : [1] This is a spam email.
+2023-04-25 17:04:30,015: predict label : [1] This is a spam email.
+2023-04-25 17:05:37,467: predict label : [1] This is a spam email.
+2023-04-25 17:05:45,807: predict label : [1] This is a spam email.
+2023-04-25 17:06:21,241: predict label : [1] This is a spam email.
+2023-04-25 17:07:20,784: predict label : [1] This is a spam email.
+2023-04-25 17:11:23,610: predict label : [1] This is a spam email.
+2023-04-25 17:11:40,834: nihao
+2023-04-25 17:11:40,841: nihao
+2023-04-25 17:11:40,842: nihao
+2023-04-25 17:11:40,843: 朴素贝叶斯
+2023-04-25 17:11:55,296: nihao
+2023-04-25 17:11:55,296: nihao
+2023-04-25 17:11:55,297: nihao
+2023-04-25 17:11:55,297: 朴素贝叶斯
+2023-04-25 17:11:59,221: nihao
+2023-04-25 17:11:59,221: nihao
+2023-04-25 17:11:59,222: nihao
+2023-04-25 17:11:59,222: 朴素贝叶斯
+2023-04-25 17:12:02,501: nihao
+2023-04-25 17:12:02,502: nihao
+2023-04-25 17:12:02,502: nihao
+2023-04-25 17:12:02,503: 朴素贝叶斯
+2023-04-25 18:34:10,163: predict label : [1] This is a spam email.
+2023-04-25 18:35:40,106: predict label : [1] This is a spam email.
+2023-04-25 18:36:05,654: predict label : [1] This is a spam email.
+2023-04-25 18:56:36,957: predict label : [1] This is a spam email.
+2023-04-25 19:14:22,906: predict label : [1] This is a spam email.
+2023-04-25 19:40:12,366: predict label : [1] This is a spam email.
+2023-04-25 21:27:40,200: predict label : [1] This is a spam email.
+2023-04-26 14:16:59,148: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-26 14:16:59,157: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 14:30:28,415: Time elapsed for function parse_email_from_file: 0.03 seconds
+2023-04-26 14:30:28,423: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 14:31:12,182: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-26 14:31:12,184: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 14:32:12,365: Time elapsed for function parse_email_from_file: 0.00 seconds
+2023-04-26 14:32:12,367: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 14:32:12,413: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 14:32:34,661: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-26 14:32:34,663: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 14:32:34,703: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 14:32:34,776: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 14:33:12,115: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-26 14:33:12,117: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 14:33:12,158: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 14:33:12,220: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 14:33:13,021: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 14:33:13,032: This is not a spam email.
+2023-04-26 14:33:13,032: Time elapsed for function run_file_with_NB: 0.92 seconds
+2023-04-26 14:37:54,532: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-26 14:37:54,539: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 14:37:54,592: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 14:37:54,662: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 14:37:55,469: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 14:37:55,488: This is not a spam email.
+2023-04-26 14:37:55,488: Time elapsed for function run_file_with_NB: 0.99 seconds
+2023-04-26 14:37:55,488: Time elapsed for function run_file: 0.99 seconds
+2023-04-26 15:25:06,025: Time elapsed for function parse_email_from_file: 0.49 seconds
+2023-04-26 15:25:06,058: Time elapsed for function process_structure_info: 0.03 seconds
+2023-04-26 15:25:06,209: Time elapsed for function process_subject_feature: 0.13 seconds
+2023-04-26 15:25:06,310: Time elapsed for function process_fromto_feature: 0.10 seconds
+2023-04-26 15:25:07,457: Time elapsed for function process_message_body: 1.15 seconds
+2023-04-26 15:25:07,496: This is not a spam email.
+2023-04-26 15:25:07,496: Time elapsed for function run_file_with_NB: 1.97 seconds
+2023-04-26 15:25:07,497: Time elapsed for function run_file: 1.97 seconds
+2023-04-26 20:34:50,534: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-26 20:34:50,542: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 20:34:50,598: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 20:34:50,670: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 20:34:51,504: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 20:34:51,515: This is not a spam email.
+2023-04-26 20:34:51,516: Time elapsed for function run_file_with_NB: 1.03 seconds
+2023-04-26 20:34:51,517: Time elapsed for function run_file: 1.03 seconds
+2023-04-26 20:39:05,713: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-26 20:39:05,721: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 20:39:05,775: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 20:39:05,846: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 20:39:06,701: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 20:39:06,710: This is not a spam email.
+2023-04-26 20:39:06,711: Time elapsed for function run_file_with_NB: 1.05 seconds
+2023-04-26 20:39:06,711: Time elapsed for function run_file: 1.06 seconds
+2023-04-26 20:57:06,531: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-26 20:57:06,540: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 20:57:06,595: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 20:57:06,666: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 20:57:07,499: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 20:57:07,509: This is not a spam email.
+2023-04-26 20:57:07,510: Time elapsed for function run_file_with_NB: 1.03 seconds
+2023-04-26 20:57:07,511: Time elapsed for function run_file: 1.03 seconds
+2023-04-26 20:58:32,947: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-26 20:58:32,954: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 20:58:33,003: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 20:58:33,078: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 20:58:33,876: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 20:58:33,882: This is not a spam email.
+2023-04-26 20:58:33,883: Time elapsed for function run_file_with_NB: 0.95 seconds
+2023-04-26 20:58:33,883: Time elapsed for function run_file: 0.95 seconds
+2023-04-26 20:58:46,962: Time elapsed for function parse_email_from_file: 0.00 seconds
+2023-04-26 20:58:46,965: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 20:58:47,008: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 20:58:47,074: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 20:58:47,871: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 20:58:47,874: This is not a spam email.
+2023-04-26 20:58:47,874: Time elapsed for function run_file_with_NB: 0.92 seconds
+2023-04-26 20:58:47,875: Time elapsed for function run_file: 0.92 seconds
+2023-04-26 20:59:35,161: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 20:59:35,163: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 20:59:35,209: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 20:59:35,280: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 20:59:36,114: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 20:59:36,128: predict result : [1] This is a spam email.
+2023-04-26 20:59:36,128: Time elapsed for function run_content_with_NB: 0.98 seconds
+2023-04-26 20:59:36,129: Time elapsed for function run_content: 0.98 seconds
+2023-04-26 20:59:44,036: Time elapsed for function parse_email_from_content: 0.00 seconds
+2023-04-26 20:59:44,039: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 20:59:44,081: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 20:59:44,144: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 20:59:44,936: Time elapsed for function process_message_body: 0.79 seconds
+2023-04-26 20:59:44,938: predict result : [1] This is a spam email.
+2023-04-26 20:59:44,938: Time elapsed for function run_content_with_NB: 0.91 seconds
+2023-04-26 20:59:44,939: Time elapsed for function run_content: 0.91 seconds
+2023-04-26 21:01:15,683: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-26 21:01:15,698: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:01:15,780: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-26 21:01:15,848: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:01:16,665: Time elapsed for function process_message_body: 0.82 seconds
+2023-04-26 21:01:16,679: predict result : [1] This is a spam email.
+2023-04-26 21:01:16,680: Time elapsed for function run_content_with_NB: 1.05 seconds
+2023-04-26 21:01:16,680: Time elapsed for function run_content: 1.05 seconds
+2023-04-26 21:01:37,441: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:01:37,446: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:01:37,538: Time elapsed for function process_subject_feature: 0.09 seconds
+2023-04-26 21:01:37,608: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:01:38,418: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 21:01:38,424: predict result : [1] This is a spam email.
+2023-04-26 21:01:38,425: Time elapsed for function run_content_with_NB: 0.99 seconds
+2023-04-26 21:01:38,425: Time elapsed for function run_content: 0.99 seconds
+2023-04-26 21:03:59,364: Time elapsed for function parse_email_from_content: 0.04 seconds
+2023-04-26 21:03:59,373: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:03:59,425: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:03:59,496: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:04:00,354: Time elapsed for function process_message_body: 0.86 seconds
+2023-04-26 21:04:00,367: predict result : [1] This is a spam email.
+2023-04-26 21:04:00,368: Time elapsed for function run_content_with_NB: 1.05 seconds
+2023-04-26 21:04:00,369: Time elapsed for function run_content: 1.06 seconds
+2023-04-26 21:04:43,776: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:04:43,782: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:04:43,844: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-26 21:04:43,914: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:04:44,687: Time elapsed for function process_message_body: 0.77 seconds
+2023-04-26 21:04:44,702: predict result : [1] This is a spam email.
+2023-04-26 21:04:44,703: Time elapsed for function run_content_with_NB: 0.94 seconds
+2023-04-26 21:04:44,704: Time elapsed for function run_content: 0.94 seconds
+2023-04-26 21:11:25,268: Time elapsed for function parse_email_from_content: 0.03 seconds
+2023-04-26 21:11:25,275: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:11:25,332: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:11:25,405: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:11:26,229: Time elapsed for function process_message_body: 0.82 seconds
+2023-04-26 21:11:26,241: predict result : [1] This is a spam email.
+2023-04-26 21:11:26,241: Time elapsed for function run_content_with_NB: 1.00 seconds
+2023-04-26 21:11:26,242: Time elapsed for function run_content: 1.01 seconds
+2023-04-26 21:11:33,570: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:11:33,576: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:11:33,644: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-26 21:11:33,714: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:11:34,529: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 21:11:34,532: predict result : [1] This is a spam email.
+2023-04-26 21:11:34,533: Time elapsed for function run_content_with_NB: 0.97 seconds
+2023-04-26 21:11:34,533: Time elapsed for function run_content: 0.97 seconds
+2023-04-26 21:12:13,809: Time elapsed for function parse_email_from_content: 0.06 seconds
+2023-04-26 21:12:13,824: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:12:13,894: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-26 21:12:13,963: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:12:14,773: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 21:12:14,789: predict result : [1] This is a spam email.
+2023-04-26 21:12:14,790: Time elapsed for function run_content_with_NB: 1.05 seconds
+2023-04-26 21:12:14,790: Time elapsed for function run_content: 1.05 seconds
+2023-04-26 21:13:06,464: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:13:06,467: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:13:06,509: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 21:13:06,578: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:13:07,382: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:13:07,396: predict result : [1] This is a spam email.
+2023-04-26 21:13:07,397: Time elapsed for function run_content_with_NB: 0.94 seconds
+2023-04-26 21:13:07,397: Time elapsed for function run_content: 0.94 seconds
+2023-04-26 21:13:12,858: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:13:12,863: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:13:12,914: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:13:12,979: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:13:13,794: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 21:13:13,797: predict result : [1] This is a spam email.
+2023-04-26 21:13:13,798: Time elapsed for function run_content_with_NB: 0.95 seconds
+2023-04-26 21:13:13,798: Time elapsed for function run_content: 0.95 seconds
+2023-04-26 21:15:47,079: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-26 21:15:47,094: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:15:47,178: Time elapsed for function process_subject_feature: 0.08 seconds
+2023-04-26 21:15:47,247: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:15:48,037: Time elapsed for function process_message_body: 0.79 seconds
+2023-04-26 21:15:48,048: predict result : [1] This is a spam email.
+2023-04-26 21:15:48,049: Time elapsed for function run_content_with_NB: 1.02 seconds
+2023-04-26 21:15:48,049: Time elapsed for function run_content: 1.02 seconds
+2023-04-26 21:16:09,064: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:16:09,067: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:16:09,121: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:16:09,192: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:16:10,042: Time elapsed for function process_message_body: 0.85 seconds
+2023-04-26 21:16:10,055: predict result : [1] This is a spam email.
+2023-04-26 21:16:10,056: Time elapsed for function run_content_with_NB: 1.00 seconds
+2023-04-26 21:16:10,057: Time elapsed for function run_content: 1.00 seconds
+2023-04-26 21:17:41,902: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:17:41,908: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:17:41,980: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-26 21:17:42,051: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:17:42,854: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:17:42,868: predict result : [1] This is a spam email.
+2023-04-26 21:17:42,869: Time elapsed for function run_content_with_NB: 0.98 seconds
+2023-04-26 21:17:42,869: Time elapsed for function run_content: 0.98 seconds
+2023-04-26 21:18:35,128: Time elapsed for function parse_email_from_content: 0.03 seconds
+2023-04-26 21:18:35,136: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:18:35,197: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:18:35,267: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:18:36,095: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 21:18:36,111: predict result : [1] This is a spam email.
+2023-04-26 21:18:36,112: Time elapsed for function run_content_with_NB: 1.02 seconds
+2023-04-26 21:18:36,113: Time elapsed for function run_content: 1.02 seconds
+2023-04-26 21:18:50,210: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:18:50,215: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:18:50,268: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:18:50,332: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:18:51,137: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:18:51,139: predict result : [1] This is a spam email.
+2023-04-26 21:18:51,140: Time elapsed for function run_content_with_NB: 0.94 seconds
+2023-04-26 21:18:51,140: Time elapsed for function run_content: 0.94 seconds
+2023-04-26 21:19:39,347: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:19:39,353: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:19:39,408: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:19:39,478: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:19:40,319: Time elapsed for function process_message_body: 0.84 seconds
+2023-04-26 21:19:40,338: predict result : [1] This is a spam email.
+2023-04-26 21:19:40,339: Time elapsed for function run_content_with_NB: 1.00 seconds
+2023-04-26 21:19:40,339: Time elapsed for function run_content: 1.00 seconds
+2023-04-26 21:19:52,539: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:19:52,544: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:19:52,596: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:19:52,660: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:19:53,476: Time elapsed for function process_message_body: 0.82 seconds
+2023-04-26 21:19:53,484: predict result : [1] This is a spam email.
+2023-04-26 21:19:53,485: Time elapsed for function run_content_with_NB: 0.95 seconds
+2023-04-26 21:19:53,485: Time elapsed for function run_content: 0.96 seconds
+2023-04-26 21:20:36,458: Time elapsed for function parse_email_from_content: 0.07 seconds
+2023-04-26 21:20:36,473: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:20:36,561: Time elapsed for function process_subject_feature: 0.08 seconds
+2023-04-26 21:20:36,654: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-26 21:20:37,446: Time elapsed for function process_message_body: 0.79 seconds
+2023-04-26 21:20:37,455: predict result : [1] This is a spam email.
+2023-04-26 21:20:37,456: Time elapsed for function run_content_with_NB: 1.07 seconds
+2023-04-26 21:20:37,456: Time elapsed for function run_content: 1.07 seconds
+2023-04-26 21:21:06,169: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:21:06,175: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:21:06,294: Time elapsed for function process_subject_feature: 0.12 seconds
+2023-04-26 21:21:06,375: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-26 21:21:07,220: Time elapsed for function process_message_body: 0.84 seconds
+2023-04-26 21:21:07,226: predict result : [1] This is a spam email.
+2023-04-26 21:21:07,227: Time elapsed for function run_content_with_NB: 1.07 seconds
+2023-04-26 21:21:07,227: Time elapsed for function run_content: 1.07 seconds
+2023-04-26 21:23:11,099: Time elapsed for function parse_email_from_content: 0.03 seconds
+2023-04-26 21:23:11,108: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:23:11,162: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:23:11,234: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:23:12,082: Time elapsed for function process_message_body: 0.85 seconds
+2023-04-26 21:23:12,097: predict result : [1] This is a spam email.
+2023-04-26 21:23:12,098: Time elapsed for function run_content_with_NB: 1.03 seconds
+2023-04-26 21:23:12,098: Time elapsed for function run_content: 1.04 seconds
+2023-04-26 21:23:23,272: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:23:23,276: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:23:23,320: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 21:23:23,386: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:23:24,190: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:23:24,192: predict result : [1] This is a spam email.
+2023-04-26 21:23:24,192: Time elapsed for function run_content_with_NB: 0.93 seconds
+2023-04-26 21:23:24,193: Time elapsed for function run_content: 0.93 seconds
+2023-04-26 21:32:39,085: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-26 21:32:39,100: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:32:39,233: Time elapsed for function process_subject_feature: 0.13 seconds
+2023-04-26 21:32:39,310: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-26 21:32:40,166: Time elapsed for function process_message_body: 0.86 seconds
+2023-04-26 21:32:40,176: predict result : [1] This is a spam email.
+2023-04-26 21:32:40,176: Time elapsed for function run_content_with_NB: 1.15 seconds
+2023-04-26 21:32:40,176: Time elapsed for function run_content: 1.15 seconds
+2023-04-26 21:32:56,197: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:32:56,202: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:32:56,251: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:32:56,414: Time elapsed for function process_fromto_feature: 0.16 seconds
+2023-04-26 21:32:57,280: Time elapsed for function process_message_body: 0.87 seconds
+2023-04-26 21:32:57,283: predict result : [1] This is a spam email.
+2023-04-26 21:32:57,284: Time elapsed for function run_content_with_NB: 1.10 seconds
+2023-04-26 21:32:57,284: Time elapsed for function run_content: 1.10 seconds
+2023-04-26 21:33:00,329: Time elapsed for function parse_email_from_content: 0.00 seconds
+2023-04-26 21:33:00,331: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:33:00,378: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:33:00,447: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:33:01,278: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-26 21:33:01,280: predict result : [1] This is a spam email.
+2023-04-26 21:33:01,281: Time elapsed for function run_content_with_NB: 0.96 seconds
+2023-04-26 21:33:01,281: Time elapsed for function run_content: 0.96 seconds
+2023-04-26 21:34:20,682: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:34:20,688: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:34:20,742: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:34:20,812: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:34:21,621: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-26 21:34:21,634: predict result : [1] This is a spam email.
+2023-04-26 21:34:21,635: Time elapsed for function run_content_with_NB: 0.96 seconds
+2023-04-26 21:34:21,635: Time elapsed for function run_content: 0.96 seconds
+2023-04-26 21:34:32,925: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:34:32,930: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:34:32,980: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:34:33,045: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:34:33,847: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:34:33,850: predict result : [1] This is a spam email.
+2023-04-26 21:34:33,851: Time elapsed for function run_content_with_NB: 0.93 seconds
+2023-04-26 21:34:33,851: Time elapsed for function run_content: 0.93 seconds
+2023-04-26 21:35:19,661: Time elapsed for function parse_email_from_content: 0.06 seconds
+2023-04-26 21:35:19,671: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:35:19,729: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:35:19,800: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:35:20,579: Time elapsed for function process_message_body: 0.78 seconds
+2023-04-26 21:35:20,590: predict result : [1] This is a spam email.
+2023-04-26 21:35:20,592: Time elapsed for function run_content_with_NB: 0.99 seconds
+2023-04-26 21:35:20,592: Time elapsed for function run_content: 1.00 seconds
+2023-04-26 21:35:31,457: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:35:31,462: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:35:31,526: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-26 21:35:31,616: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-26 21:35:32,457: Time elapsed for function process_message_body: 0.84 seconds
+2023-04-26 21:35:32,459: predict result : [1] This is a spam email.
+2023-04-26 21:35:32,460: Time elapsed for function run_content_with_NB: 1.01 seconds
+2023-04-26 21:35:32,461: Time elapsed for function run_content: 1.01 seconds
+2023-04-26 21:36:26,626: Time elapsed for function parse_email_from_content: 0.04 seconds
+2023-04-26 21:36:26,635: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:36:26,690: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:36:26,760: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:36:27,546: Time elapsed for function process_message_body: 0.79 seconds
+2023-04-26 21:36:27,555: predict result : [1] This is a spam email.
+2023-04-26 21:36:27,556: Time elapsed for function run_content_with_NB: 0.97 seconds
+2023-04-26 21:36:27,556: Time elapsed for function run_content: 0.97 seconds
+2023-04-26 21:36:56,926: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:36:56,931: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:36:56,998: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-26 21:36:57,071: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:36:57,849: Time elapsed for function process_message_body: 0.78 seconds
+2023-04-26 21:36:57,856: predict result : [1] This is a spam email.
+2023-04-26 21:36:57,857: Time elapsed for function run_content_with_NB: 0.94 seconds
+2023-04-26 21:36:57,857: Time elapsed for function run_content: 0.94 seconds
+2023-04-26 21:37:49,875: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:37:49,878: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:37:49,925: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:37:49,994: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:37:50,762: Time elapsed for function process_message_body: 0.77 seconds
+2023-04-26 21:37:50,770: predict result : [1] This is a spam email.
+2023-04-26 21:37:50,770: Time elapsed for function run_content_with_NB: 0.90 seconds
+2023-04-26 21:37:50,771: Time elapsed for function run_content: 0.90 seconds
+2023-04-26 21:37:58,760: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:37:58,765: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:37:58,816: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:37:58,881: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:37:59,685: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:37:59,687: predict result : [1] This is a spam email.
+2023-04-26 21:37:59,688: Time elapsed for function run_content_with_NB: 0.94 seconds
+2023-04-26 21:37:59,688: Time elapsed for function run_content: 0.94 seconds
+2023-04-26 21:38:26,756: Time elapsed for function parse_email_from_content: 0.06 seconds
+2023-04-26 21:38:26,774: Time elapsed for function process_structure_info: 0.02 seconds
+2023-04-26 21:38:26,863: Time elapsed for function process_subject_feature: 0.08 seconds
+2023-04-26 21:38:26,958: Time elapsed for function process_fromto_feature: 0.10 seconds
+2023-04-26 21:38:27,762: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:38:27,772: predict result : [1] This is a spam email.
+2023-04-26 21:38:27,773: Time elapsed for function run_content_with_NB: 1.08 seconds
+2023-04-26 21:38:27,773: Time elapsed for function run_content: 1.08 seconds
+2023-04-26 21:38:34,050: Time elapsed for function parse_email_from_content: 0.00 seconds
+2023-04-26 21:38:34,053: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:38:34,097: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-26 21:38:34,161: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:38:34,918: Time elapsed for function process_message_body: 0.76 seconds
+2023-04-26 21:38:34,923: predict result : [1] This is a spam email.
+2023-04-26 21:38:34,923: Time elapsed for function run_content_with_NB: 0.88 seconds
+2023-04-26 21:38:34,924: Time elapsed for function run_content: 0.88 seconds
+2023-04-26 21:39:36,788: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-26 21:39:36,802: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-26 21:39:36,878: Time elapsed for function process_subject_feature: 0.08 seconds
+2023-04-26 21:39:36,951: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-26 21:39:37,731: Time elapsed for function process_message_body: 0.78 seconds
+2023-04-26 21:39:37,741: predict result : [1] This is a spam email.
+2023-04-26 21:39:37,741: Time elapsed for function run_content_with_NB: 1.00 seconds
+2023-04-26 21:39:37,741: Time elapsed for function run_content: 1.00 seconds
+2023-04-26 21:39:45,149: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-26 21:39:45,154: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-26 21:39:45,204: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-26 21:39:45,270: Time elapsed for function process_fromto_feature: 0.06 seconds
+2023-04-26 21:39:46,065: Time elapsed for function process_message_body: 0.80 seconds
+2023-04-26 21:39:46,069: predict result : [1] This is a spam email.
+2023-04-26 21:39:46,069: Time elapsed for function run_content_with_NB: 0.93 seconds
+2023-04-26 21:39:46,070: Time elapsed for function run_content: 0.93 seconds
+2023-04-29 17:20:38,509: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:20:38,512: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:22:09,043: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:22:09,045: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:25:30,114: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:25:30,116: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:29:29,719: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:29:29,721: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:33:27,057: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:33:27,058: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:37:22,815: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-29 17:37:22,824: Time elapsed for function process_structure_info: 0.01 seconds
+2023-04-29 17:37:22,891: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-29 17:37:22,985: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-29 17:37:23,865: Time elapsed for function process_message_body: 0.88 seconds
+2023-04-29 17:37:23,872: This is not a spam email.
+2023-04-29 17:37:23,872: Time elapsed for function run_file_with_NB: 1.11 seconds
+2023-04-29 17:38:56,399: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:38:56,401: Time elapsed for function parse_email_from_file: 0.02 seconds
+2023-04-29 17:45:53,849: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:45:53,851: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:46:48,747: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:46:48,748: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:48:43,610: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:48:43,613: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:52:00,222: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:52:00,224: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:52:05,607: Time elapsed for function run_file_with_LSTM: 5.39 seconds
+2023-04-29 17:52:55,567: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:52:55,568: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:54:13,003: 读取电子邮件文件时发生错误：embedded null character
+2023-04-29 17:54:13,005: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:55:09,168: Time elapsed for function parse_email_from_file: 0.02 seconds
+2023-04-29 17:55:09,171: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 17:55:09,233: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 17:55:09,578: Time elapsed for function process_fromto_feature: 0.34 seconds
+2023-04-29 17:55:10,447: Time elapsed for function process_message_body: 0.87 seconds
+2023-04-29 17:55:10,459: This is not a spam email.
+2023-04-29 17:55:10,459: Time elapsed for function run_file_with_NB: 1.31 seconds
+2023-04-29 17:56:32,086: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-29 17:56:32,118: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 17:56:32,177: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 17:56:32,256: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 17:56:33,080: Time elapsed for function process_message_body: 0.82 seconds
+2023-04-29 17:56:33,089: This is not a spam email.
+2023-04-29 17:56:33,089: Time elapsed for function run_file_with_NB: 1.05 seconds
+2023-04-29 17:57:02,855: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:57:02,869: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 17:57:02,924: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 17:57:03,015: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-29 17:57:03,836: Time elapsed for function process_message_body: 0.82 seconds
+2023-04-29 17:57:03,840: This is not a spam email.
+2023-04-29 17:57:03,840: Time elapsed for function run_file_with_NB: 1.00 seconds
+2023-04-29 17:57:13,168: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 17:59:20,566: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-29 18:01:07,812: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-29 18:02:34,346: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 18:06:27,172: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 18:08:31,726: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-29 18:08:41,925: This is not a spam email.
+2023-04-29 18:08:41,981: Time elapsed for function run_file_with_LSTM: 10.29 seconds
+2023-04-29 18:10:39,343: Time elapsed for function parse_email_from_file: 0.06 seconds
+2023-04-29 18:12:29,930: Time elapsed for function parse_email_from_file: 0.03 seconds
+2023-04-29 18:12:29,950: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:12:30,000: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 18:12:30,115: Time elapsed for function process_fromto_feature: 0.11 seconds
+2023-04-29 18:12:30,861: Time elapsed for function process_message_body: 0.75 seconds
+2023-04-29 18:12:30,872: This is not a spam email.
+2023-04-29 18:12:30,873: Time elapsed for function run_file_with_NB: 0.98 seconds
+2023-04-29 18:12:30,873: Time elapsed for function run_file: 0.98 seconds
+2023-04-29 18:12:40,360: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 18:12:48,364: This is not a spam email.
+2023-04-29 18:12:48,433: Time elapsed for function run_file_with_LSTM: 8.09 seconds
+2023-04-29 18:12:48,434: Time elapsed for function run_file: 8.09 seconds
+2023-04-29 18:25:14,548: Time elapsed for function parse_email_from_content: 0.09 seconds
+2023-04-29 18:25:21,999: predict result : 1 This is a spam email.
+2023-04-29 18:25:22,026: Time elapsed for function run_content_with_LSTM: 7.58 seconds
+2023-04-29 18:25:22,026: Time elapsed for function run_content: 7.58 seconds
+2023-04-29 18:26:11,190: Time elapsed for function parse_email_from_file: 0.07 seconds
+2023-04-29 18:26:18,992: This is not a spam email.
+2023-04-29 18:26:19,047: Time elapsed for function run_file_with_LSTM: 7.92 seconds
+2023-04-29 18:26:19,048: Time elapsed for function run_file: 7.93 seconds
+2023-04-29 18:28:13,311: Time elapsed for function parse_email_from_file: 0.03 seconds
+2023-04-29 18:28:13,314: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:28:13,376: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:28:13,464: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-29 18:28:14,174: Time elapsed for function process_message_body: 0.71 seconds
+2023-04-29 18:28:14,182: This is not a spam email.
+2023-04-29 18:28:14,183: Time elapsed for function run_file_with_NB: 0.91 seconds
+2023-04-29 18:28:14,183: Time elapsed for function run_file: 0.91 seconds
+2023-04-29 18:29:33,111: Time elapsed for function parse_email_from_file: 0.11 seconds
+2023-04-29 18:29:33,116: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:29:33,194: Time elapsed for function process_subject_feature: 0.07 seconds
+2023-04-29 18:29:33,299: Time elapsed for function process_fromto_feature: 0.10 seconds
+2023-04-29 18:29:34,079: Time elapsed for function process_message_body: 0.78 seconds
+2023-04-29 18:29:34,095: This is not a spam email.
+2023-04-29 18:29:34,096: Time elapsed for function run_file_with_NB: 1.10 seconds
+2023-04-29 18:29:34,096: Time elapsed for function run_file: 1.11 seconds
+2023-04-29 18:29:40,672: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 18:29:40,675: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:29:40,718: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-29 18:29:40,791: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-29 18:29:41,496: Time elapsed for function process_message_body: 0.70 seconds
+2023-04-29 18:29:41,498: This is not a spam email.
+2023-04-29 18:29:41,499: Time elapsed for function run_file_with_NB: 0.84 seconds
+2023-04-29 18:29:41,499: Time elapsed for function run_file: 0.84 seconds
+2023-04-29 18:29:45,850: Time elapsed for function parse_email_from_file: 0.01 seconds
+2023-04-29 18:29:53,873: This is not a spam email.
+2023-04-29 18:29:53,918: Time elapsed for function run_file_with_LSTM: 8.08 seconds
+2023-04-29 18:29:53,918: Time elapsed for function run_file: 8.08 seconds
+2023-04-29 18:30:14,329: Time elapsed for function parse_email_from_file: 0.05 seconds
+2023-04-29 18:30:19,377: This is not a spam email.
+2023-04-29 18:30:19,407: Time elapsed for function run_file_with_LSTM: 5.13 seconds
+2023-04-29 18:30:19,407: Time elapsed for function run_file: 5.13 seconds
+2023-04-29 18:30:30,309: Time elapsed for function parse_email_from_content: 0.10 seconds
+2023-04-29 18:30:37,773: predict result : 1 This is a spam email.
+2023-04-29 18:30:37,809: Time elapsed for function run_content_with_LSTM: 7.61 seconds
+2023-04-29 18:30:37,809: Time elapsed for function run_content: 7.61 seconds
+2023-04-29 18:32:40,139: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-29 18:32:47,145: predict result : 1 This is a spam email.
+2023-04-29 18:32:47,188: Time elapsed for function run_content_with_LSTM: 7.10 seconds
+2023-04-29 18:32:47,189: Time elapsed for function run_content: 7.10 seconds
+2023-04-29 18:41:40,359: Time elapsed for function parse_email_from_file: 0.08 seconds
+2023-04-29 18:41:40,365: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:41:40,460: Time elapsed for function process_subject_feature: 0.09 seconds
+2023-04-29 18:41:40,596: Time elapsed for function process_fromto_feature: 0.13 seconds
+2023-04-29 18:41:41,325: Time elapsed for function process_message_body: 0.73 seconds
+2023-04-29 18:41:41,341: This is not a spam email.
+2023-04-29 18:41:41,344: Time elapsed for function run_file_with_NB: 1.06 seconds
+2023-04-29 18:41:41,344: Time elapsed for function run_file: 1.07 seconds
+2023-04-29 18:41:47,924: Time elapsed for function parse_email_from_file: 0.04 seconds
+2023-04-29 18:41:54,541: This is not a spam email.
+2023-04-29 18:41:54,569: Time elapsed for function run_file_with_LSTM: 6.69 seconds
+2023-04-29 18:41:54,569: Time elapsed for function run_file: 6.69 seconds
+2023-04-29 18:42:00,853: Time elapsed for function parse_email_from_file: 0.02 seconds
+2023-04-29 18:42:00,855: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:42:00,902: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 18:42:00,980: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 18:42:01,840: Time elapsed for function process_message_body: 0.86 seconds
+2023-04-29 18:42:01,843: This is not a spam email.
+2023-04-29 18:42:01,844: Time elapsed for function run_file_with_NB: 1.01 seconds
+2023-04-29 18:42:01,845: Time elapsed for function run_file: 1.01 seconds
+2023-04-29 18:43:53,610: Time elapsed for function parse_email_from_file: 0.08 seconds
+2023-04-29 18:43:53,614: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:43:53,683: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:43:53,769: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 18:43:54,722: Time elapsed for function process_message_body: 0.95 seconds
+2023-04-29 18:43:54,738: This is not a spam email.
+2023-04-29 18:43:54,740: Time elapsed for function run_file_with_NB: 1.21 seconds
+2023-04-29 18:43:54,741: Time elapsed for function run_file: 1.22 seconds
+2023-04-29 18:43:59,234: Time elapsed for function parse_email_from_file: 0.02 seconds
+2023-04-29 18:43:59,236: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:43:59,287: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 18:43:59,553: Time elapsed for function process_fromto_feature: 0.26 seconds
+2023-04-29 18:44:00,322: Time elapsed for function process_message_body: 0.77 seconds
+2023-04-29 18:44:00,324: This is not a spam email.
+2023-04-29 18:44:00,326: Time elapsed for function run_file_with_NB: 1.11 seconds
+2023-04-29 18:44:00,326: Time elapsed for function run_file: 1.11 seconds
+2023-04-29 18:47:54,946: Time elapsed for function parse_email_from_content: 0.04 seconds
+2023-04-29 18:47:54,950: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:47:55,002: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 18:47:55,086: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 18:47:55,837: Time elapsed for function process_message_body: 0.75 seconds
+2023-04-29 18:47:55,851: predict result : [1] This is a spam email.
+2023-04-29 18:47:55,851: Time elapsed for function run_content_with_NB: 0.95 seconds
+2023-04-29 18:47:55,852: Time elapsed for function run_content: 0.95 seconds
+2023-04-29 18:48:05,871: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-29 18:48:13,725: predict result : 1 This is a spam email.
+2023-04-29 18:48:13,782: Time elapsed for function run_content_with_LSTM: 7.92 seconds
+2023-04-29 18:48:13,783: Time elapsed for function run_content: 7.92 seconds
+2023-04-29 18:48:20,466: Time elapsed for function parse_email_from_content: 0.05 seconds
+2023-04-29 18:48:20,469: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:48:20,531: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:48:20,621: Time elapsed for function process_fromto_feature: 0.09 seconds
+2023-04-29 18:48:21,466: Time elapsed for function process_message_body: 0.84 seconds
+2023-04-29 18:48:21,473: predict result : [1] This is a spam email.
+2023-04-29 18:48:21,473: Time elapsed for function run_content_with_NB: 1.06 seconds
+2023-04-29 18:48:21,474: Time elapsed for function run_content: 1.06 seconds
+2023-04-29 18:48:28,449: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-29 18:48:28,452: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:48:28,497: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-29 18:48:28,571: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-29 18:48:29,398: Time elapsed for function process_message_body: 0.83 seconds
+2023-04-29 18:48:29,401: predict result : [1] This is a spam email.
+2023-04-29 18:48:29,401: Time elapsed for function run_content_with_NB: 0.96 seconds
+2023-04-29 18:48:29,402: Time elapsed for function run_content: 0.96 seconds
+2023-04-29 18:48:34,432: Time elapsed for function parse_email_from_content: 0.02 seconds
+2023-04-29 18:48:34,437: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:48:34,484: Time elapsed for function process_subject_feature: 0.04 seconds
+2023-04-29 18:48:34,560: Time elapsed for function process_fromto_feature: 0.07 seconds
+2023-04-29 18:48:35,277: Time elapsed for function process_message_body: 0.72 seconds
+2023-04-29 18:48:35,281: predict result : [1] This is a spam email.
+2023-04-29 18:48:35,282: Time elapsed for function run_content_with_NB: 0.87 seconds
+2023-04-29 18:48:35,283: Time elapsed for function run_content: 0.87 seconds
+2023-04-29 18:49:20,575: Time elapsed for function parse_email_from_content: 0.09 seconds
+2023-04-29 18:49:20,580: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:49:20,644: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:49:20,723: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 18:49:21,464: Time elapsed for function process_message_body: 0.74 seconds
+2023-04-29 18:49:21,475: predict result : [1] This is a spam email.
+2023-04-29 18:49:21,476: Time elapsed for function run_content_with_NB: 1.00 seconds
+2023-04-29 18:49:21,476: Time elapsed for function run_content: 1.00 seconds
+2023-04-29 18:49:26,126: Time elapsed for function parse_email_from_content: 0.01 seconds
+2023-04-29 18:49:26,129: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:49:26,193: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:49:26,304: Time elapsed for function process_fromto_feature: 0.11 seconds
+2023-04-29 18:49:27,020: Time elapsed for function process_message_body: 0.72 seconds
+2023-04-29 18:49:27,023: predict result : [1] This is a spam email.
+2023-04-29 18:49:27,024: Time elapsed for function run_content_with_NB: 0.91 seconds
+2023-04-29 18:49:27,024: Time elapsed for function run_content: 0.91 seconds
+2023-04-29 18:53:36,388: [!]朴素贝叶斯运行开始]
+2023-04-29 18:53:36,421: Time elapsed for function parse_email_from_content: 0.03 seconds
+2023-04-29 18:53:36,423: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:53:36,475: Time elapsed for function process_subject_feature: 0.05 seconds
+2023-04-29 18:53:36,556: Time elapsed for function process_fromto_feature: 0.08 seconds
+2023-04-29 18:53:37,260: Time elapsed for function process_message_body: 0.70 seconds
+2023-04-29 18:53:37,270: predict result : [1] This is a spam email.
+2023-04-29 18:53:37,271: Time elapsed for function run_content_with_NB: 0.88 seconds
+2023-04-29 18:53:37,272: [!]朴素贝叶斯运行结束]
+2023-04-29 18:53:37,273: Time elapsed for function run_content: 0.89 seconds
+2023-04-29 18:55:33,620: [!]朴素贝叶斯运行开始]
+2023-04-29 18:55:33,775: Time elapsed for function parse_email_from_content: 0.14 seconds
+2023-04-29 18:55:33,780: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:55:33,872: Time elapsed for function process_subject_feature: 0.08 seconds
+2023-04-29 18:55:33,972: Time elapsed for function process_fromto_feature: 0.10 seconds
+2023-04-29 18:55:34,816: Time elapsed for function process_message_body: 0.84 seconds
+2023-04-29 18:55:34,832: predict result : [1] This is a spam email.
+2023-04-29 18:55:34,833: Time elapsed for function run_content_with_NB: 1.20 seconds
+2023-04-29 18:55:34,834: [!]朴素贝叶斯运行结束]
+2023-04-29 18:55:34,835: Time elapsed for function run_content: 1.23 seconds
+2023-04-29 18:55:41,110: [!]朴素贝叶斯运行开始]
+2023-04-29 18:55:41,202: Time elapsed for function parse_email_from_content: 0.08 seconds
+2023-04-29 18:55:41,206: Time elapsed for function process_structure_info: 0.00 seconds
+2023-04-29 18:55:41,271: Time elapsed for function process_subject_feature: 0.06 seconds
+2023-04-29 18:55:41,380: Time elapsed for function process_fromto_feature: 0.11 seconds
+2023-04-29 18:55:42,196: Time elapsed for function process_message_body: 0.81 seconds
+2023-04-29 18:55:42,203: predict result : [1] This is a spam email.
+2023-04-29 18:55:42,204: Time elapsed for function run_content_with_NB: 1.09 seconds
+2023-04-29 18:55:42,204: [!]朴素贝叶斯运行结束]
+2023-04-29 18:55:42,205: Time elapsed for function run_content: 1.11 seconds
+2023-04-29 19:01:05,859: [!]朴素贝叶斯运行开始]
+2023-04-29 19:01:05,958: [>]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 19:01:05,961: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:01:06,026: [>]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 19:01:06,120: [>]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 19:01:06,853: [>]函数 process_message_body 的执行时间为 0.73 秒
+2023-04-29 19:01:06,869: predict result : [1] This is a spam email.
+2023-04-29 19:01:06,869: [>]函数 run_content_with_NB 的执行时间为 1.00 秒
+2023-04-29 19:01:06,870: [!]朴素贝叶斯运行结束
+2023-04-29 19:01:06,873: [>]函数 run_content 的执行时间为 1.03 秒
+2023-04-29 19:26:48,516: [!]朴素贝叶斯运行开始]
+2023-04-29 19:26:48,599: [>]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 19:26:48,602: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:26:48,673: [>]函数 process_subject_feature 的执行时间为 0.07 秒
+2023-04-29 19:26:48,769: [>]函数 process_fromto_feature 的执行时间为 0.10 秒
+2023-04-29 19:26:49,481: [>]函数 process_message_body 的执行时间为 0.71 秒
+2023-04-29 19:26:49,493: predict result : [1] This is a spam email.
+2023-04-29 19:26:49,494: [>]函数 run_content_with_NB 的执行时间为 0.97 秒
+2023-04-29 19:26:49,495: [!]朴素贝叶斯运行结束
+2023-04-29 19:26:49,497: [>]函数 run_content 的执行时间为 0.99 秒
+2023-04-29 19:33:04,044: [!]朴素贝叶斯运行开始]
+2023-04-29 19:33:04,134: [>]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 19:33:04,137: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:33:04,198: [>]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 19:33:04,278: [>]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 19:33:05,028: [>]函数 process_message_body 的执行时间为 0.75 秒
+2023-04-29 19:33:05,045: predict result : [1] This is a spam email.
+2023-04-29 19:33:05,045: [>]函数 run_content_with_NB 的执行时间为 0.99 秒
+2023-04-29 19:33:05,047: [!]朴素贝叶斯运行结束
+2023-04-29 19:33:05,049: [>]函数 run_content 的执行时间为 1.02 秒
+2023-04-29 19:36:41,498: [!]朴素贝叶斯运行开始]
+2023-04-29 19:36:41,578: [>]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 19:36:41,581: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:36:41,641: [>]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 19:36:41,760: [>]函数 process_fromto_feature 的执行时间为 0.12 秒
+2023-04-29 19:36:42,518: [>]函数 process_message_body 的执行时间为 0.76 秒
+2023-04-29 19:36:42,530: predict result : [1] This is a spam email.
+2023-04-29 19:36:42,531: [>]函数 run_content_with_NB 的执行时间为 1.03 秒
+2023-04-29 19:36:42,532: [!]朴素贝叶斯运行结束
+2023-04-29 19:36:42,534: [>]函数 run_content 的执行时间为 1.04 秒
+2023-04-29 19:38:25,790: [!]朴素贝叶斯运行开始]
+2023-04-29 19:38:25,839: [>]函数 parse_email_from_content 的执行时间为 0.04 秒
+2023-04-29 19:38:25,841: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:38:25,911: [>]函数 process_subject_feature 的执行时间为 0.07 秒
+2023-04-29 19:38:25,990: [>]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 19:38:26,707: [>]函数 process_message_body 的执行时间为 0.72 秒
+2023-04-29 19:38:26,718: predict result : [1] This is a spam email.
+2023-04-29 19:38:26,719: [>]函数 run_content_with_NB 的执行时间为 0.93 秒
+2023-04-29 19:38:26,720: [!]朴素贝叶斯运行结束
+2023-04-29 19:38:26,721: [>]函数 run_content 的执行时间为 0.93 秒
+2023-04-29 19:40:43,258: [!]朴素贝叶斯运行开始]
+2023-04-29 19:40:43,357: [>]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 19:40:43,360: [>]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 19:40:43,436: [>]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 19:40:43,525: [>]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 19:40:44,250: [>]函数 process_message_body 的执行时间为 0.72 秒
+2023-04-29 19:40:44,263: predict result : [1] This is a spam email.
+2023-04-29 19:40:44,263: [>]函数 run_content_with_NB 的执行时间为 1.00 秒
+2023-04-29 19:40:44,264: [!]朴素贝叶斯运行结束
+2023-04-29 19:40:44,267: [>]函数 run_content 的执行时间为 1.02 秒
+2023-04-29 20:04:37,458: [!]朴素贝叶斯运行开始]
+2023-04-29 20:04:37,569: [->]函数 parse_email_from_content 的执行时间为 0.10 秒
+2023-04-29 20:04:37,573: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:04:37,655: [->]函数 process_subject_feature 的执行时间为 0.08 秒
+2023-04-29 20:04:37,751: [->]函数 process_fromto_feature 的执行时间为 0.10 秒
+2023-04-29 20:04:38,559: [->]函数 process_message_body 的执行时间为 0.81 秒
+2023-04-29 20:04:38,577: predict result : [1] This is a spam email.
+2023-04-29 20:04:38,578: [->]函数 run_content_with_NB 的执行时间为 1.11 秒
+2023-04-29 20:04:38,579: [!]朴素贝叶斯运行结束
+2023-04-29 20:04:38,581: [->]函数 run_content 的执行时间为 1.14 秒
+2023-04-29 20:05:03,272: [!]朴素贝叶斯运行开始]
+2023-04-29 20:05:03,281: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 20:05:03,284: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:05:03,326: [->]函数 process_subject_feature 的执行时间为 0.04 秒
+2023-04-29 20:05:03,403: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 20:05:04,275: [->]函数 process_message_body 的执行时间为 0.87 秒
+2023-04-29 20:05:04,278: predict result : [1] This is a spam email.
+2023-04-29 20:05:04,279: [->]函数 run_content_with_NB 的执行时间为 1.01 秒
+2023-04-29 20:05:04,280: [!]朴素贝叶斯运行结束
+2023-04-29 20:05:04,281: [->]函数 run_content 的执行时间为 1.01 秒
+2023-04-29 20:14:33,847: [!]朴素贝叶斯运行开始]
+2023-04-29 20:14:33,879: [->]函数 parse_email_from_content 的执行时间为 0.03 秒
+2023-04-29 20:14:33,882: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:14:33,933: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 20:14:34,016: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 20:14:34,871: [->]函数 process_message_body 的执行时间为 0.85 秒
+2023-04-29 20:14:34,881: predict result : [1] This is a spam email.
+2023-04-29 20:14:34,882: [->]函数 run_content_with_NB 的执行时间为 1.03 秒
+2023-04-29 20:14:34,883: [!]朴素贝叶斯运行结束
+2023-04-29 20:14:34,884: [->]函数 run_content 的执行时间为 1.04 秒
+2023-04-29 20:45:04,041: [!]朴素贝叶斯运行开始]
+2023-04-29 20:45:04,092: [->]函数 parse_email_from_content 的执行时间为 0.04 秒
+2023-04-29 20:45:04,095: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:45:04,150: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 20:45:04,231: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 20:45:05,059: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 20:45:05,070: predict result : [1] This is a spam email.
+2023-04-29 20:45:05,071: [->]函数 run_content_with_NB 的执行时间为 1.03 秒
+2023-04-29 20:45:05,072: [!]朴素贝叶斯运行结束
+2023-04-29 20:45:05,073: [->]函数 run_content 的执行时间为 1.04 秒
+2023-04-29 20:48:42,352: [!]朴素贝叶斯运行开始]
+2023-04-29 20:48:42,431: [->]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 20:48:42,434: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:48:42,493: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 20:48:42,569: [->]函数 process_fromto_feature 的执行时间为 0.07 秒
+2023-04-29 20:48:43,405: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 20:48:43,416: predict result : [1] This is a spam email.
+2023-04-29 20:48:43,417: [->]函数 run_content_with_NB 的执行时间为 1.06 秒
+2023-04-29 20:48:43,418: [!]朴素贝叶斯运行结束
+2023-04-29 20:48:43,419: [->]函数 run_content 的执行时间为 1.08 秒
+2023-04-29 20:48:49,248: [!]朴素贝叶斯运行开始]
+2023-04-29 20:48:49,257: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 20:48:49,260: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:48:49,305: [->]函数 process_subject_feature 的执行时间为 0.04 秒
+2023-04-29 20:48:49,380: [->]函数 process_fromto_feature 的执行时间为 0.07 秒
+2023-04-29 20:48:50,206: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 20:48:50,208: predict result : [1] This is a spam email.
+2023-04-29 20:48:50,209: [->]函数 run_content_with_NB 的执行时间为 0.96 秒
+2023-04-29 20:48:50,209: [!]朴素贝叶斯运行结束
+2023-04-29 20:48:50,210: [->]函数 run_content 的执行时间为 0.96 秒
+2023-04-29 20:52:05,942: [!]朴素贝叶斯运行开始]
+2023-04-29 20:52:05,983: [->]函数 parse_email_from_content 的执行时间为 0.03 秒
+2023-04-29 20:52:05,984: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:52:06,041: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 20:52:06,119: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 20:52:06,953: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 20:52:06,964: [Predict result] : [1] This is a spam email.
+2023-04-29 20:52:06,964: [->]函数 run_content_with_NB 的执行时间为 1.02 秒
+2023-04-29 20:52:06,965: [!]朴素贝叶斯运行结束
+2023-04-29 20:52:06,966: [->]函数 run_content 的执行时间为 1.03 秒
+2023-04-29 20:55:42,292: [!]朴素贝叶斯运行开始]
+2023-04-29 20:55:42,530: [->]函数 parse_email_from_content 的执行时间为 0.22 秒
+2023-04-29 20:55:42,532: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:55:42,650: [->]函数 process_subject_feature 的执行时间为 0.10 秒
+2023-04-29 20:55:42,768: [->]函数 process_fromto_feature 的执行时间为 0.12 秒
+2023-04-29 20:55:43,798: [->]函数 process_message_body 的执行时间为 1.03 秒
+2023-04-29 20:55:43,821: [Predict result] : [1] This is a spam email.
+2023-04-29 20:55:43,831: [->]函数 run_content_with_NB 的执行时间为 1.51 秒
+2023-04-29 20:55:43,832: [!]朴素贝叶斯运行结束
+2023-04-29 20:55:43,833: [->]函数 run_content 的执行时间为 1.57 秒
+2023-04-29 20:57:38,959: [!]朴素贝叶斯运行开始]
+2023-04-29 20:57:39,074: [->]函数 parse_email_from_content 的执行时间为 0.11 秒
+2023-04-29 20:57:39,077: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:57:39,137: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 20:57:39,229: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 20:57:40,094: [->]函数 process_message_body 的执行时间为 0.87 秒
+2023-04-29 20:57:40,104: [Predict result] : [1] This is a spam email.
+2023-04-29 20:57:40,105: [->]函数 run_content_with_NB 的执行时间为 1.14 秒
+2023-04-29 20:57:40,105: [!]朴素贝叶斯运行结束
+2023-04-29 20:57:40,106: [->]函数 run_content 的执行时间为 1.16 秒
+2023-04-29 20:59:52,634: [!]朴素贝叶斯运行开始]
+2023-04-29 20:59:52,735: [->]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 20:59:52,737: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 20:59:52,819: [->]函数 process_subject_feature 的执行时间为 0.08 秒
+2023-04-29 20:59:52,914: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 20:59:53,835: [->]函数 process_message_body 的执行时间为 0.92 秒
+2023-04-29 20:59:53,849: [Predict result] : [1] This is a spam email.
+2023-04-29 20:59:53,850: [->]函数 run_content_with_NB 的执行时间为 1.21 秒
+2023-04-29 20:59:53,852: [!]朴素贝叶斯运行结束
+2023-04-29 20:59:53,854: [->]函数 run_content 的执行时间为 1.26 秒
+2023-04-29 21:00:02,447: [!]朴素贝叶斯运行开始]
+2023-04-29 21:00:02,456: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 21:00:02,458: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:00:02,504: [->]函数 process_subject_feature 的执行时间为 0.04 秒
+2023-04-29 21:00:02,589: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:00:03,388: [->]函数 process_message_body 的执行时间为 0.80 秒
+2023-04-29 21:00:03,390: [Predict result] : [1] This is a spam email.
+2023-04-29 21:00:03,391: [->]函数 run_content_with_NB 的执行时间为 0.94 秒
+2023-04-29 21:00:03,392: [!]朴素贝叶斯运行结束
+2023-04-29 21:00:03,392: [->]函数 run_content 的执行时间为 0.95 秒
+2023-04-29 21:01:19,618: [!]朴素贝叶斯运行开始]
+2023-04-29 21:01:19,698: [->]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 21:01:19,701: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:01:19,772: [->]函数 process_subject_feature 的执行时间为 0.07 秒
+2023-04-29 21:01:19,859: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:01:20,753: [->]函数 process_message_body 的执行时间为 0.89 秒
+2023-04-29 21:01:20,763: [Predict result] : [1] This is a spam email.
+2023-04-29 21:01:20,764: [->]函数 run_content_with_NB 的执行时间为 1.14 秒
+2023-04-29 21:01:20,766: [!]朴素贝叶斯运行结束
+2023-04-29 21:01:20,769: [->]函数 run_content 的执行时间为 1.16 秒
+2023-04-29 21:01:31,405: [!]朴素贝叶斯运行开始]
+2023-04-29 21:01:31,426: [->]函数 parse_email_from_content 的执行时间为 0.02 秒
+2023-04-29 21:01:31,432: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:01:31,484: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:01:31,565: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:01:32,444: [->]函数 process_message_body 的执行时间为 0.88 秒
+2023-04-29 21:01:32,447: [Predict result] : [1] This is a spam email.
+2023-04-29 21:01:32,448: [->]函数 run_content_with_NB 的执行时间为 1.04 秒
+2023-04-29 21:01:32,449: [!]朴素贝叶斯运行结束
+2023-04-29 21:01:32,450: [->]函数 run_content 的执行时间为 1.04 秒
+2023-04-29 21:02:12,957: [!]LSTM运行开始]
+2023-04-29 21:02:13,055: [->]函数 parse_email_from_content 的执行时间为 0.09 秒
+2023-04-29 21:02:21,294: [Predict result] : 1 This is a spam email.
+2023-04-29 21:02:21,355: [->]函数 run_content_with_LSTM 的执行时间为 8.39 秒
+2023-04-29 21:02:21,358: [!]LSTM运行结束
+2023-04-29 21:02:21,359: [->]函数 run_content 的执行时间为 8.42 秒
+2023-04-29 21:07:14,976: [!]朴素贝叶斯运行开始]
+2023-04-29 21:07:15,073: [->]函数 parse_email_from_content 的执行时间为 0.09 秒
+2023-04-29 21:07:15,078: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:07:15,147: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:07:15,242: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 21:07:16,092: [->]函数 process_message_body 的执行时间为 0.85 秒
+2023-04-29 21:07:16,105: [Predict result] : [1] This is a spam email.
+2023-04-29 21:07:16,105: [->]函数 run_content_with_NB 的执行时间为 1.12 秒
+2023-04-29 21:07:16,106: [!]朴素贝叶斯运行结束
+2023-04-29 21:07:16,107: [->]函数 run_content 的执行时间为 1.16 秒
+2023-04-29 21:16:33,023: [!]朴素贝叶斯运行开始]
+2023-04-29 21:16:33,111: [->]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 21:16:33,114: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:16:33,179: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:16:33,262: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:16:34,167: [->]函数 process_message_body 的执行时间为 0.90 秒
+2023-04-29 21:16:34,182: [Predict result] : [1] This is a spam email.
+2023-04-29 21:16:34,183: [->]函数 run_content_with_NB 的执行时间为 1.16 秒
+2023-04-29 21:16:34,185: [!]朴素贝叶斯运行结束
+2023-04-29 21:16:34,188: [->]函数 run_content 的执行时间为 1.18 秒
+2023-04-29 21:16:55,538: [!]朴素贝叶斯运行开始]
+2023-04-29 21:16:55,547: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 21:16:55,552: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:16:55,602: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:16:55,691: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 21:16:56,589: [->]函数 process_message_body 的执行时间为 0.90 秒
+2023-04-29 21:16:56,592: [Predict result] : [1] This is a spam email.
+2023-04-29 21:16:56,593: [->]函数 run_content_with_NB 的执行时间为 1.06 秒
+2023-04-29 21:16:56,594: [!]朴素贝叶斯运行结束
+2023-04-29 21:16:56,595: [->]函数 run_content 的执行时间为 1.06 秒
+2023-04-29 21:18:56,448: [!]朴素贝叶斯运行开始]
+2023-04-29 21:18:56,473: [->]函数 parse_email_from_content 的执行时间为 0.02 秒
+2023-04-29 21:18:56,476: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:18:56,524: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:18:56,604: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:18:57,494: [->]函数 process_message_body 的执行时间为 0.89 秒
+2023-04-29 21:18:57,500: [Predict result] : [1] This is a spam email.
+2023-04-29 21:18:57,502: [->]函数 run_content_with_NB 的执行时间为 1.05 秒
+2023-04-29 21:18:57,503: [!]朴素贝叶斯运行结束
+2023-04-29 21:18:57,504: [->]函数 run_content 的执行时间为 1.06 秒
+2023-04-29 21:26:37,050: [!]朴素贝叶斯运行开始]
+2023-04-29 21:26:37,134: [->]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 21:26:37,136: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:26:37,199: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:26:37,284: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:26:38,153: [->]函数 process_message_body 的执行时间为 0.87 秒
+2023-04-29 21:26:38,165: [Predict result] : [1] This is a spam email.
+2023-04-29 21:26:38,166: [->]函数 run_content_with_NB 的执行时间为 1.11 秒
+2023-04-29 21:26:38,167: [!]朴素贝叶斯运行结束
+2023-04-29 21:26:38,169: [->]函数 run_content 的执行时间为 1.13 秒
+2023-04-29 21:26:47,649: [!]朴素贝叶斯运行开始]
+2023-04-29 21:26:47,660: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 21:26:47,663: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:26:47,711: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:26:47,788: [->]函数 process_fromto_feature 的执行时间为 0.07 秒
+2023-04-29 21:26:48,666: [->]函数 process_message_body 的执行时间为 0.88 秒
+2023-04-29 21:26:48,669: [Predict result] : [1] This is a spam email.
+2023-04-29 21:26:48,670: [->]函数 run_content_with_NB 的执行时间为 1.02 秒
+2023-04-29 21:26:48,671: [!]朴素贝叶斯运行结束
+2023-04-29 21:26:48,672: [->]函数 run_content 的执行时间为 1.02 秒
+2023-04-29 21:29:46,714: [!]朴素贝叶斯运行开始]
+2023-04-29 21:29:46,762: [->]函数 parse_email_from_content 的执行时间为 0.04 秒
+2023-04-29 21:29:46,764: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:29:46,819: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:29:46,903: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:29:47,732: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 21:29:47,741: [Predict result] : [1] This is a spam email.
+2023-04-29 21:29:47,741: [->]函数 run_content_with_NB 的执行时间为 1.02 秒
+2023-04-29 21:29:47,742: [!]朴素贝叶斯运行结束
+2023-04-29 21:29:47,743: [->]函数 run_content 的执行时间为 1.03 秒
+2023-04-29 21:29:52,578: [!]朴素贝叶斯运行开始]
+2023-04-29 21:29:52,585: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 21:29:52,587: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:29:52,630: [->]函数 process_subject_feature 的执行时间为 0.04 秒
+2023-04-29 21:29:52,706: [->]函数 process_fromto_feature 的执行时间为 0.07 秒
+2023-04-29 21:29:53,536: [->]函数 process_message_body 的执行时间为 0.83 秒
+2023-04-29 21:29:53,538: [Predict result] : [1] This is a spam email.
+2023-04-29 21:29:53,539: [->]函数 run_content_with_NB 的执行时间为 0.96 秒
+2023-04-29 21:29:53,540: [!]朴素贝叶斯运行结束
+2023-04-29 21:29:53,540: [->]函数 run_content 的执行时间为 0.96 秒
+2023-04-29 21:30:27,184: [!]朴素贝叶斯运行开始]
+2023-04-29 21:30:27,195: [->]函数 parse_email_from_content 的执行时间为 0.01 秒
+2023-04-29 21:30:27,197: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:30:27,249: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:30:27,351: [->]函数 process_fromto_feature 的执行时间为 0.10 秒
+2023-04-29 21:30:28,198: [->]函数 process_message_body 的执行时间为 0.85 秒
+2023-04-29 21:30:28,203: [Predict result] : [1] This is a spam email.
+2023-04-29 21:30:28,204: [->]函数 run_content_with_NB 的执行时间为 1.02 秒
+2023-04-29 21:30:28,204: [!]朴素贝叶斯运行结束
+2023-04-29 21:30:28,205: [->]函数 run_content 的执行时间为 1.02 秒
+2023-04-29 21:32:57,652: [!]朴素贝叶斯运行开始]
+2023-04-29 21:32:57,680: [->]函数 parse_email_from_content 的执行时间为 0.02 秒
+2023-04-29 21:32:57,683: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:32:57,737: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 21:32:57,822: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:32:58,727: [->]函数 process_message_body 的执行时间为 0.90 秒
+2023-04-29 21:32:58,742: [Predict result] : [1] This is a spam email.
+2023-04-29 21:32:58,743: [->]函数 run_content_with_NB 的执行时间为 1.09 秒
+2023-04-29 21:32:58,744: [!]朴素贝叶斯运行结束
+2023-04-29 21:32:58,745: [->]函数 run_content 的执行时间为 1.10 秒
+2023-04-29 21:34:08,784: [!]朴素贝叶斯运行开始]
+2023-04-29 21:34:08,873: [->]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 21:34:08,876: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:34:08,939: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:34:09,025: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 21:34:09,876: [->]函数 process_message_body 的执行时间为 0.85 秒
+2023-04-29 21:34:09,888: [Predict result] : [1] This is a spam email.
+2023-04-29 21:34:09,889: [->]函数 run_content_with_NB 的执行时间为 1.10 秒
+2023-04-29 21:34:09,891: [!]朴素贝叶斯运行结束
+2023-04-29 21:34:09,891: [->]函数 run_content 的执行时间为 1.15 秒
+2023-04-29 21:34:24,551: [!]朴素贝叶斯运行开始]
+2023-04-29 21:34:24,575: [->]函数 parse_email_from_content 的执行时间为 0.02 秒
+2023-04-29 21:34:24,581: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:34:24,643: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:34:24,737: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 21:34:25,607: [->]函数 process_message_body 的执行时间为 0.87 秒
+2023-04-29 21:34:25,610: [Predict result] : [1] This is a spam email.
+2023-04-29 21:34:25,611: [->]函数 run_content_with_NB 的执行时间为 1.06 秒
+2023-04-29 21:34:25,612: [!]朴素贝叶斯运行结束
+2023-04-29 21:34:25,612: [->]函数 run_content 的执行时间为 1.06 秒
+2023-04-29 21:39:58,329: [!]朴素贝叶斯运行开始]
+2023-04-29 21:39:58,428: [->]函数 parse_email_from_content 的执行时间为 0.09 秒
+2023-04-29 21:39:58,431: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:39:58,492: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:39:58,582: [->]函数 process_fromto_feature 的执行时间为 0.09 秒
+2023-04-29 21:39:59,392: [->]函数 process_message_body 的执行时间为 0.81 秒
+2023-04-29 21:39:59,406: [Predict result] : [1] This is a spam email.
+2023-04-29 21:39:59,407: [->]函数 run_content_with_NB 的执行时间为 1.07 秒
+2023-04-29 21:39:59,409: [!]朴素贝叶斯运行结束
+2023-04-29 21:39:59,410: [->]函数 run_content 的执行时间为 1.13 秒
+2023-04-29 21:48:55,058: [!]朴素贝叶斯运行开始]
+2023-04-29 21:48:55,192: [->]函数 parse_email_from_content 的执行时间为 0.12 秒
+2023-04-29 21:48:55,198: [->]函数 process_structure_info 的执行时间为 0.01 秒
+2023-04-29 21:48:55,347: [->]函数 process_subject_feature 的执行时间为 0.13 秒
+2023-04-29 21:48:55,539: [->]函数 process_fromto_feature 的执行时间为 0.19 秒
+2023-04-29 21:48:56,919: [->]函数 process_message_body 的执行时间为 1.38 秒
+2023-04-29 21:48:56,962: [Predict result] : [1] This is a spam email.
+2023-04-29 21:48:56,964: [->]函数 run_content_with_NB 的执行时间为 1.90 秒
+2023-04-29 21:48:56,969: [!]朴素贝叶斯运行结束
+2023-04-29 21:48:56,971: [->]函数 run_content 的执行时间为 1.97 秒
+2023-04-29 21:57:55,971: [!]朴素贝叶斯运行开始]
+2023-04-29 21:57:56,069: [->]函数 parse_email_from_content 的执行时间为 0.09 秒
+2023-04-29 21:57:56,072: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 21:57:56,139: [->]函数 process_subject_feature 的执行时间为 0.06 秒
+2023-04-29 21:57:56,224: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 21:57:57,065: [->]函数 process_message_body 的执行时间为 0.84 秒
+2023-04-29 21:57:57,082: [Predict result] : [1] This is a spam email.
+2023-04-29 21:57:57,084: [->]函数 run_content_with_NB 的执行时间为 1.10 秒
+2023-04-29 21:57:57,087: [!]朴素贝叶斯运行结束
+2023-04-29 21:57:57,087: [->]函数 run_content 的执行时间为 1.16 秒
+2023-04-29 22:00:55,137: [!]朴素贝叶斯运行开始]
+2023-04-29 22:00:55,190: [->]函数 parse_email_from_content 的执行时间为 0.05 秒
+2023-04-29 22:00:55,193: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:00:55,248: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 22:00:55,346: [->]函数 process_fromto_feature 的执行时间为 0.10 秒
+2023-04-29 22:00:56,277: [->]函数 process_message_body 的执行时间为 0.93 秒
+2023-04-29 22:00:56,289: [Predict result] : [1] This is a spam email.
+2023-04-29 22:00:56,290: [->]函数 run_content_with_NB 的执行时间为 1.15 秒
+2023-04-29 22:00:56,292: [!]朴素贝叶斯运行结束
+2023-04-29 22:00:56,293: [->]函数 run_content 的执行时间为 1.17 秒
+2023-04-29 22:07:58,603: [!]朴素贝叶斯运行开始]
+2023-04-29 22:07:58,655: [->]函数 parse_email_from_content 的执行时间为 0.05 秒
+2023-04-29 22:07:58,658: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:07:58,712: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 22:07:58,792: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 22:07:59,638: [->]函数 process_message_body 的执行时间为 0.84 秒
+2023-04-29 22:07:59,648: [Predict result] : [1] This is a spam email.
+2023-04-29 22:07:59,649: [->]函数 run_content_with_NB 的执行时间为 1.04 秒
+2023-04-29 22:07:59,651: [!]朴素贝叶斯运行结束
+2023-04-29 22:07:59,651: [->]函数 run_content 的执行时间为 1.06 秒
+2023-04-29 22:15:23,137: [!]朴素贝叶斯运行开始]
+2023-04-29 22:15:23,196: [->]函数 parse_email_from_content 的执行时间为 0.05 秒
+2023-04-29 22:15:23,198: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:15:23,255: [->]函数 process_subject_feature 的执行时间为 0.05 秒
+2023-04-29 22:15:23,337: [->]函数 process_fromto_feature 的执行时间为 0.08 秒
+2023-04-29 22:15:24,207: [->]函数 process_message_body 的执行时间为 0.87 秒
+2023-04-29 22:15:24,216: [Predict result] : [1] This is a spam email.
+2023-04-29 22:15:24,218: [->]函数 run_content_with_NB 的执行时间为 1.08 秒
+2023-04-29 22:15:24,219: [!]朴素贝叶斯运行结束
+2023-04-29 22:15:24,219: [->]函数 run_content 的执行时间为 1.10 秒
+2023-04-29 22:19:31,873: [!]朴素贝叶斯运行开始]
+2023-04-29 22:19:31,947: [->]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 22:19:31,951: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:19:32,025: [->]函数 process_subject_feature 的执行时间为 0.07 秒
+2023-04-29 22:19:32,144: [->]函数 process_fromto_feature 的执行时间为 0.12 秒
+2023-04-29 22:19:32,998: [->]函数 process_message_body 的执行时间为 0.85 秒
+2023-04-29 22:19:33,034: [Predict result] : [1] This is a spam email.
+2023-04-29 22:19:33,036: [->]函数 run_content_with_NB 的执行时间为 1.16 秒
+2023-04-29 22:19:33,067: [!]朴素贝叶斯运行结束
+2023-04-29 22:19:33,069: [->]函数 run_content 的执行时间为 1.21 秒
+2023-04-29 22:21:31,472: [!]朴素贝叶斯运行开始]
+2023-04-29 22:21:31,552: [->]函数 parse_email_from_content 的执行时间为 0.07 秒
+2023-04-29 22:21:31,556: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:21:31,635: [->]函数 process_subject_feature 的执行时间为 0.07 秒
+2023-04-29 22:21:31,786: [->]函数 process_fromto_feature 的执行时间为 0.15 秒
+2023-04-29 22:21:32,910: [->]函数 process_message_body 的执行时间为 1.12 秒
+2023-04-29 22:21:32,926: [Predict result] : [1] This is a spam email.
+2023-04-29 22:21:32,927: [->]函数 run_content_with_NB 的执行时间为 1.45 秒
+2023-04-29 22:21:32,929: [!]朴素贝叶斯运行结束
+2023-04-29 22:21:32,931: [->]函数 run_content 的执行时间为 1.47 秒
+2023-04-29 22:21:41,279: [!]朴素贝叶斯运行开始]
+2023-04-29 22:21:41,367: [->]函数 parse_email_from_content 的执行时间为 0.08 秒
+2023-04-29 22:21:41,372: [->]函数 process_structure_info 的执行时间为 0.00 秒
+2023-04-29 22:21:41,475: [->]函数 process_subject_feature 的执行时间为 0.10 秒
+2023-04-29 22:21:41,627: [->]函数 process_fromto_feature 的执行时间为 0.15 秒
+2023-04-29 22:21:42,885: [->]函数 process_message_body 的执行时间为 1.26 秒
+2023-04-29 22:21:42,895: [Predict result] : [1] This is a spam email.
+2023-04-29 22:21:42,896: [->]函数 run_content_with_NB 的执行时间为 1.61 秒
+2023-04-29 22:21:42,898: [!]朴素贝叶斯运行结束
+2023-04-29 22:21:42,900: [->]函数 run_content 的执行时间为 1.63 秒
+2023-04-30 15:11:08,573: [!]朴素贝叶斯运行开始]
+2023-04-30 15:11:08,703: [->]函数 parse_email_from_content 的执行时间为 0.10 秒
+2023-04-30 15:11:08,713: [->]函数 process_structure_info 的执行时间为 0.01 秒
+2023-04-30 15:11:08,907: [->]函数 process_subject_feature 的执行时间为 0.19 秒
+2023-04-30 15:11:09,174: [->]函数 process_fromto_feature 的执行时间为 0.26 秒
+2023-04-30 15:11:11,239: [->]函数 process_message_body 的执行时间为 2.06 秒
+2023-04-30 15:11:11,256: [Predict result] : [1] This is a spam email.
+2023-04-30 15:11:11,258: [->]函数 run_content_with_NB 的执行时间为 2.67 秒
+2023-04-30 15:11:11,262: [!]朴素贝叶斯运行结束
+2023-04-30 15:11:11,263: [->]函数 run_content 的执行时间为 2.73 秒
+2023-04-30 15:12:27,595: [!]LSTM运行开始]
+2023-04-30 15:12:27,739: [->]函数 parse_email_from_file 的执行时间为 0.14 秒
+2023-04-30 15:12:45,917: This is not a spam email.
+2023-04-30 15:12:45,994: [->]函数 run_file_with_LSTM 的执行时间为 18.39 秒
+2023-04-30 15:12:45,997: [!]LSTM运行结束
+2023-04-30 15:12:45,999: [->]函数 run_file 的执行时间为 18.42 秒

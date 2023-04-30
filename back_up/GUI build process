@@ -1,0 +1,284 @@
+请帮使用python==3.9的PyQt5==5.15.9库写一个代码的GUI：
+1、GUI的大小是显示器屏幕的一半，长宽比是黄金比例，GUI缩放时长宽比要锁定，各组件的相对位置不要变化，要美观。
+2、要有两个输入框，为上下排布。第一个输入框的作用是读取文件路径。用户可以自行输入文件路径或者点击右侧按钮“选择文件”进行选择。第二个输入框的作用是需要用户自行输入邮件的文本内容。这两个输入框前面应有选择按钮，只有被选择的才能运行，不被选择的需要变灰，不响应用户的点击。
+3、下拉框改为模型选择，可以选择朴素贝叶斯模型和LSTM模型
+4、点击运行按钮后，上述输入框和下拉框获得的输入要传到single_test.py文件中的run函数中，run函数有两个，第一个的参数是文件路径和模型名称，功能是接收文本文件路径，然后读取路径的文本文件中的内容，返回文件内容。第二个的参数是输入的电子邮件内容和模型名称，功能是接收输入的电子邮件内容，返回输入的电子邮件内容。选择这两个函数的依据是第2步中选择的输入框。
+5、实现词云图的函数generate_wordcloud要在此代码中运行，single_test.run_file和single_test.run_content函数会返回两个值，其中第一个是邮件内容email_content，第二个是邮件标签email_label，标志着是否是垃圾邮件。generate_wordcloud函数要根据email_content生成词云图。。
+6、有三个输出。第一个输出是输出日志，即文件中print的输出，将所有的print输出重定向到此输出框输。第二个输出框是显示输入的电子邮件是否是垃圾邮件的输出框。第三个输出框是显示根据电子邮件内容生成的词云图的输出框，此输出框在没有词云图的时候不显示，当输出词云图的时候才显示。
+7、最后，请按照你喜欢的风格，美化此GUI
+
+此代码有几个问题，请修改并输出修改的对应的部分：
+1、首先实现词云图的函数generate_wordcloud要在此代码中实现并运行。generate_wordcloud函数要根据email_content生成词云图。
+2、请在输入框前面请添加简洁提示。
+3、请将按钮和下拉框的大小固定，不按照放大缩小而改变它们的大小。
+4、请将GUI的大小改为屏幕大小的一半
+5、请将print的输出重定向到日志输出的输出框中
+6、显示是否是垃圾邮件的输出框可以与日志输出的输出框做到同一行中，输出日志的输出库占80%，显示是否是垃圾邮件的输出框占20%
+
+此代码有几个问题，请修改并输出完整代码：
+1、设置下拉框 self.model_combo_box和运行按钮 self.run_button 大小相等并且右对齐
+2、设置GUI开始运行是默认选择的输入框是“文件路径”，并且将“邮件内容”输入框变灰
+3、请给输出框上方加入提示，第一个输出框的提示是“日志输出”，第二个输出框的提示是“分类结果”，第三个输出框的提示是“邮件词云图”
+
+
+此代码有几个问题，请修改并输出完整代码：
+1、日志输出文本框无法输出整个项目的print打印出的内容，请将项目中所有print的输出重定向到日志输出文本框中
+2、词云图无法展示，无法生成词云图
+3、请将log_prompt和label_prompt处于同一高度，并于下方的self.log_output和self.label_output对齐
+4、将self.label_output的内容居中展示，不仅左右居中，上下也居中
+
+
+此代码有几个问题，请修改并输出完整代码：
+1、请将所有的print输出，重定向到 self.log_output的输出框中输出
+2、逻辑问题：
+（1）当用户使用选择输入框按钮选择self.file_input输入框时，此时self.file_input和self.choose_file_button可以使用，self.content_input的输入框应该变成灰色，不能编辑
+（2）当用户使用选择输入框按钮选择self.content_input输入框时，此时self.content_input可以使用，self.file_input和self.choose_file_button应该变成灰色，不能编辑
+（3）当GUI启动时，默认选择self.file_input输入框，并且self.content_input的输入框应该变成灰色，不能编辑
+3、请将词云图保存到本地image文件夹下
+
+
+
+
+
+此代码中的生成词云图的函数generate_wordcloud不能正常生成，请结合我的代码修改：
+def generate_wordcloud(text):
+    # 生成词云图
+    wc = WordCloud(max_words=100, background_color='white', width=800, height=600)
+    wc.generate(text)
+
+    # 显示词云图
+    plt.figure(figsize=(10, 8))
+    plt.imshow(wc, interpolation='bilinear')
+    plt.axis('off')
+
+    # 保存词云图
+    if not os.path.exists("image"):
+        os.makedirs("image")
+    current_time = time.strftime("%Y%m%d-%H%M%S")
+    filename = "wordcloud-" + current_time + ".png"
+    plt.savefig("image/" + filename)
+
+    plt.show()
+并能够使生成的词云图能够在GUI的第三个输出框中展示，第三个输出框的大小要和图像的大小相同，要使GUI美观：
+
+
+
+请将生成词云图的输出框和“邮件词云图”的提示标签单独做成一个GUI窗口。当点击运行，正常生成词云图后，这个窗口从中间弹出，生成词云图失败后，弹出一个错误窗口。
+
+import logging
+import sys
+import io
+import os
+import base64
+import traceback
+
+import single_run
+from wordcloud import WordCloud
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QSizePolicy,
+    QLineEdit, QPushButton, QRadioButton, QComboBox, QTextEdit,
+    QLabel, QFileDialog, QGraphicsView, QSpacerItem
+)
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPixmap, QTextCursor, QTextOption
+
+import pickle
+import string
+
+from nltk import LancasterStemmer, word_tokenize
+from nltk.corpus import stopwords
+
+
+def lancaster_tokenizer(text):
+    """
+    将一个字符串分词并进行词干提取。
+    :param text:文本
+    :return:
+    """
+    # 初始化词干提取器
+    lancaster_stemmer = LancasterStemmer()
+    # 分词并将每个单词进行词干提取，并返回处理后的结果
+    return [
+        lancaster_stemmer.stem(token) for token in word_tokenize(text.lower())
+    ]
+
+
+# 获取停用词
+stop_words = list(
+    lancaster_tokenizer(
+        " ".join(stopwords.words("english") + list(string.punctuation))))
+
+# 导入分词器
+tokenizer = lancaster_tokenizer
+
+
+class EmittingStream(io.StringIO):
+    def __init__(self, callback):
+        super().__init__()
+        self.callback = callback
+
+    def write(self, text):
+        try:
+            self.callback(text)
+        except Exception as e:
+            logging.error(f"Error in callback function: {e}")
+            traceback.print_exc()
+        finally:
+            super().write(text)
+
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+        # 重定向输出流到self.log_output
+        # sys.stdout = EmittingStream(self.write_output)
+
+    def initUI(self):
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+
+        layout = QVBoxLayout()
+        central_widget.setLayout(layout)
+
+        # 输入框和按钮
+        self.file_input = QLineEdit()
+        self.content_input = QTextEdit()
+        self.content_input.setEnabled(False)
+        self.choose_file_button = QPushButton("选择文件")
+        self.choose_file_button.clicked.connect(self.choose_file)
+        self.choose_file_button.setFixedSize(150, 30)
+
+        # 选择输入框按钮
+        self.file_radio = QRadioButton()
+        self.file_radio.setChecked(True)
+        self.content_radio = QRadioButton()
+        self.file_radio.toggled.connect(self.toggle_file_input)
+        self.content_radio.toggled.connect(self.toggle_content_input)
+
+        # 下拉框
+        self.model_combo_box = QComboBox()
+        self.model_combo_box.addItem("朴素贝叶斯")
+        self.model_combo_box.addItem("LSTM")
+        self.model_combo_box.setFixedSize(150, 30)
+
+        # 输出框
+        self.log_output = QTextEdit()
+        self.label_output = QTextEdit()
+        self.wordcloud_output = QLabel()
+
+        # 运行按钮
+        self.run_button = QPushButton("运行")
+        self.run_button.clicked.connect(self.run)
+        self.run_button.setFixedSize(150, 30)
+
+        # 布局设置
+        file_prompt = QLabel("文件路径：")
+        content_prompt = QLabel("邮件内容：")
+
+        file_layout = QHBoxLayout()
+        file_layout.addWidget(file_prompt)
+        file_layout.addWidget(self.file_radio)
+        file_layout.addWidget(self.file_input)
+        file_layout.addWidget(self.choose_file_button)
+        layout.addLayout(file_layout)
+
+        content_layout = QHBoxLayout()
+        content_layout.addWidget(content_prompt)
+        content_layout.addWidget(self.content_radio)
+        content_layout.addWidget(self.content_input)
+        layout.addLayout(content_layout)
+
+        combo_layout = QHBoxLayout()
+        combo_layout.addStretch(1)
+        combo_layout.addWidget(self.model_combo_box)
+        combo_layout.addWidget(self.run_button)
+        layout.addLayout(combo_layout)
+
+        log_prompt = QLabel("日志输出：")
+        label_prompt = QLabel("分类结果：")
+        wordcloud_prompt = QLabel("邮件词云图：")
+
+        # 将文本编辑框和标签添加到垂直布局中
+        log_layout = QVBoxLayout()
+        log_layout.addWidget(log_prompt)
+        log_layout.addWidget(self.log_output)
+
+        label_layout = QVBoxLayout()
+        label_layout.addWidget(label_prompt)
+        label_layout.addWidget(self.label_output)
+
+        outputs_layout = QHBoxLayout()
+        outputs_layout.addLayout(log_layout, 8)
+        outputs_layout.addLayout(label_layout, 2)
+        layout.addLayout(outputs_layout)
+
+        layout.addWidget(wordcloud_prompt)
+        layout.addWidget(self.wordcloud_output)
+
+        screen = QApplication.primaryScreen()
+        geometry = screen.availableGeometry()
+        self.setGeometry(geometry.width() // 4, geometry.height() // 4,
+                         geometry.width() // 2, geometry.height() // 2)
+        self.setWindowTitle("垃圾邮件检测")
+        self.show()
+
+    def choose_file(self):
+        file_path, _ = QFileDialog.getOpenFileName(self, "选择文件")
+        self.file_input.setText(file_path)
+
+    def toggle_file_input(self, checked):
+        self.file_input.setEnabled(checked)
+        self.choose_file_button.setEnabled(checked)
+        self.content_input.setEnabled(not checked)
+
+    def toggle_content_input(self, checked):
+        self.content_input.setEnabled(checked)
+        self.file_input.setEnabled(not checked)
+        self.choose_file_button.setEnabled(not checked)
+
+    def generate_wordcloud(self, email_content):
+        wordcloud = WordCloud(width=400, height=300, background_color="white").generate(email_content)
+        img_data = io.BytesIO()
+        wordcloud.to_image().save(img_data, format="PNG")
+        img_data.seek(0)
+        with open("image/wordcloud.png", "wb") as f:
+            f.write(img_data.read())
+        return base64.b64encode(img_data.getvalue())
+
+    def run(self):
+        model_name = self.model_combo_box.currentText()
+        if self.file_radio.isChecked():
+            file_path = self.file_input.text()
+            email_content, email_label = single_run.run_file(file_path, model_name)
+        elif self.content_radio.isChecked():
+            email_content = self.content_input.toPlainText()
+            email_label = single_run.run_content(email_content, model_name)
+        else:
+            return
+
+        self.label_output.setText("垃圾邮件" if email_label else "正常邮件")
+        self.label_output.setAlignment(Qt.AlignCenter)
+
+        img_data = self.generate_wordcloud(email_content)
+        pixmap = QPixmap()
+        pixmap.loadFromData(base64.b64decode(img_data))
+        self.wordcloud_output.setPixmap(pixmap)
+        self.wordcloud_output.setScaledContents(True)
+        self.wordcloud_output.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
+
+    def write_output(self, text):
+        self.log_output.insertPlainText(text)
+
+    def resizeEvent(self, event):
+        width = event.size().width()
+        height = int(width / 1.618)  # 黄金比例
+        self.resize(width, height)
+        super().resizeEvent(event)
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    sys.exit(app.exec_())

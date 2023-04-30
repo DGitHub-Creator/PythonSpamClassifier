@@ -1,0 +1,862 @@
+2023-04-12 18:04:43,184: 开始提取 count 特征。
+2023-04-12 18:04:51,089: 完成提取 count 特征。
+2023-04-12 18:04:51,977: 开始提取 count 特征。
+2023-04-12 18:04:57,629: 完成提取 count 特征。
+2023-04-12 18:04:57,632: 开始提取 count 特征。
+2023-04-12 18:05:03,231: 完成提取 count 特征。
+2023-04-12 18:05:04,065: 开始提取 count 特征。
+2023-04-12 18:09:28,272: 完成提取 count 特征。
+2023-04-12 18:26:06,586: 开始提取 subject_count 特征。
+2023-04-12 18:26:16,803: 完成提取 subject_count 特征。
+2023-04-12 18:26:17,878: 开始提取 from_count 特征。
+2023-04-12 18:26:24,554: 完成提取 from_count 特征。
+2023-04-12 18:26:24,557: 开始提取 to_count 特征。
+2023-04-12 18:26:31,384: 完成提取 to_count 特征。
+2023-04-12 18:26:32,742: 开始提取 message_count 特征。
+2023-04-12 18:31:47,707: 完成提取 message_count 特征。
+2023-04-12 20:15:00,074: 开始提取 subject_count 特征。
+2023-04-12 20:15:08,126: 完成提取 subject_count 特征。
+2023-04-12 20:15:09,246: 开始提取 from_count 特征。
+2023-04-12 20:15:15,445: 完成提取 from_count 特征。
+2023-04-12 20:15:15,448: 开始提取 to_count 特征。
+2023-04-12 20:15:20,427: 完成提取 to_count 特征。
+2023-04-12 20:15:21,214: 开始提取 message_count 特征。
+2023-04-12 20:16:44,648: 开始提取 subject_count 特征。
+2023-04-12 20:16:52,003: 完成提取 subject_count 特征。
+2023-04-12 20:16:52,838: 开始提取 from_count 特征。
+2023-04-12 20:16:58,092: 完成提取 from_count 特征。
+2023-04-12 20:16:58,095: 开始提取 to_count 特征。
+2023-04-12 20:17:02,884: 完成提取 to_count 特征。
+2023-04-12 20:17:03,665: 开始提取 message_count 特征。
+2023-04-12 20:56:34,640: 开始提取 subject_count 特征。
+2023-04-12 20:56:47,941: 完成提取 subject_count 特征。
+2023-04-12 20:56:49,353: 开始提取 from_count 特征。
+2023-04-12 20:57:01,257: 完成提取 from_count 特征。
+2023-04-12 20:57:01,261: 开始提取 to_count 特征。
+2023-04-12 20:57:06,966: 完成提取 to_count 特征。
+2023-04-12 20:57:07,747: 开始提取 message_count 特征。
+2023-04-12 21:01:15,390: 完成提取 message_count 特征。
+2023-04-12 21:05:28,337: 目录 subject_feature 已存在
+2023-04-12 21:05:28,338: 目录 fromto_feature 已存在
+2023-04-12 21:05:28,338: 目录 message_feature 已存在
+2023-04-12 21:05:28,408: Time elapsed for function read_data: 0.06 seconds
+2023-04-12 21:05:28,408: 123
+2023-04-12 21:05:29,471: 开始提取 subject_count 特征。
+2023-04-12 21:05:36,648: 完成提取 subject_count 特征。
+2023-04-12 21:06:55,290: 目录 subject_feature 已存在
+2023-04-12 21:06:55,292: 目录 fromto_feature 已存在
+2023-04-12 21:06:55,292: 目录 message_feature 已存在
+2023-04-12 21:06:55,359: Time elapsed for function read_data: 0.05 seconds
+2023-04-12 21:06:55,359: 123
+2023-04-12 21:06:56,387: 开始提取 subject_count 特征。
+2023-04-12 21:07:03,351: 完成提取 subject_count 特征。
+2023-04-12 21:07:03,353: (37201, 10777)
+2023-04-12 21:07:03,353: (37201,)
+2023-04-12 21:07:03,367: Time elapsed for function subject_feature_extraction: 8.01 seconds
+2023-04-12 21:07:04,190: 开始提取 from_count 特征。
+2023-04-12 21:07:09,181: 完成提取 from_count 特征。
+2023-04-12 21:07:09,182: (37201, 16008)
+2023-04-12 21:07:09,183: (37201,)
+2023-04-12 21:07:09,184: 开始提取 to_count 特征。
+2023-04-12 21:07:14,159: 完成提取 to_count 特征。
+2023-04-12 21:07:14,160: (37201, 3570)
+2023-04-12 21:07:14,160: (37201,)
+2023-04-12 21:07:14,175: Time elapsed for function fromto_feature_extraction: 10.81 seconds
+2023-04-12 21:07:15,013: 开始提取 message_count 特征。
+2023-04-12 21:11:24,636: 完成提取 message_count 特征。
+2023-04-12 21:11:24,645: (35938, 205898)
+2023-04-12 21:11:24,671: (35938,)
+2023-04-12 21:11:24,899: Time elapsed for function extract_message_feature: 250.72 seconds
+2023-04-12 21:28:49,883: 目录 subject_feature 已存在
+2023-04-12 21:28:49,885: 目录 fromto_feature 已存在
+2023-04-12 21:28:49,885: 目录 message_feature 已存在
+2023-04-12 21:28:57,456: 文件夹路径: D:/py/pythonProjectSpam/trec06p
+2023-04-12 21:28:57,465: 数据集类型: full
+2023-04-12 21:28:57,518: Time elapsed for function read_data: 0.05 seconds
+2023-04-12 21:32:37,894: 目录 subject_feature 已存在
+2023-04-12 21:32:37,896: 目录 fromto_feature 已存在
+2023-04-12 21:32:37,896: 目录 message_feature 已存在
+2023-04-12 21:33:06,586: 文件夹路径: D:/py/pythonProjectSpam/trec06p
+2023-04-12 21:33:06,588: 数据集类型: full
+2023-04-12 21:33:06,679: Time elapsed for function read_data: 0.09 seconds
+2023-04-15 21:03:38,803: 目录 subject_feature 已存在
+2023-04-15 21:03:38,805: 目录 fromto_feature 已存在
+2023-04-15 21:03:38,806: 目录 message_feature 已存在
+2023-04-15 21:03:38,894: Time elapsed for function read_data: 0.06 seconds
+2023-04-15 21:10:50,431: (37201, 10)
+2023-04-15 21:10:56,117: Time elapsed for function parse_email_content: 437.22 seconds
+2023-04-15 21:15:08,508: 目录 subject_feature 已存在
+2023-04-15 21:15:08,510: 目录 fromto_feature 已存在
+2023-04-15 21:15:08,511: 目录 message_feature 已存在
+2023-04-15 21:15:08,597: Time elapsed for function read_data: 0.06 seconds
+2023-04-15 21:24:25,665: (37201, 10)
+2023-04-15 21:24:28,471: Time elapsed for function parse_email_content: 559.87 seconds
+2023-04-15 21:24:29,558: Time elapsed for function process_structural_info: 1.09 seconds
+2023-04-15 21:24:30,436: 开始提取 subject_count 特征。
+2023-04-15 21:49:46,905: 目录 subject_feature 已存在
+2023-04-15 21:49:46,908: 目录 fromto_feature 已存在
+2023-04-15 21:49:46,908: 目录 message_feature 已存在
+2023-04-15 21:49:46,981: Time elapsed for function read_data: 0.06 seconds
+2023-04-15 21:57:57,258: (37201, 10)
+2023-04-15 21:57:57,405: (37201, 10)
+2023-04-15 21:58:10,514: Time elapsed for function parse_email_content: 503.53 seconds
+2023-04-15 21:58:12,390: Time elapsed for function process_structural_info: 1.87 seconds
+2023-04-15 21:58:15,061: 开始提取 subject_count 特征。
+2023-04-15 21:58:33,718: 完成提取 subject_count 特征。
+2023-04-15 21:58:33,725: (35230, 9300)
+2023-04-15 21:58:33,729: (35230,)
+2023-04-15 21:58:33,765: Time elapsed for function subject_feature_extraction: 21.37 seconds
+2023-04-15 21:58:35,553: 开始提取 from_count 特征。
+2023-04-15 21:58:48,014: 完成提取 from_count 特征。
+2023-04-15 21:58:48,017: (35230, 15161)
+2023-04-15 21:58:48,018: (35230,)
+2023-04-15 21:58:48,019: 开始提取 to_count 特征。
+2023-04-15 21:58:58,396: 完成提取 to_count 特征。
+2023-04-15 21:58:58,398: (35230, 3454)
+2023-04-15 21:58:58,398: (35230,)
+2023-04-15 21:58:58,438: Time elapsed for function fromto_feature_extraction: 24.67 seconds
+2023-04-15 21:59:00,091: 开始提取 message_count 特征。
+2023-04-15 22:04:32,133: 完成提取 message_count 特征。
+2023-04-15 22:04:32,137: (35230, 213744)
+2023-04-15 22:04:32,152: (35230,)
+2023-04-15 22:04:32,407: Time elapsed for function extract_message_feature: 333.97 seconds
+2023-04-16 16:06:46,152: 目录 subject_feature 已存在
+2023-04-16 16:06:46,154: 目录 fromto_feature 已存在
+2023-04-16 16:06:46,155: 目录 message_feature 已存在
+2023-04-16 16:06:46,226: Time elapsed for function read_data: 0.05 seconds
+2023-04-16 16:15:08,782: (37201, 10)
+2023-04-16 16:15:08,911: (37201, 10)
+2023-04-16 16:15:21,043: Time elapsed for function parse_email_content: 514.81 seconds
+2023-04-16 16:15:23,155: Time elapsed for function process_structural_info: 2.11 seconds
+2023-04-16 16:15:25,055: 开始提取 subject_count 特征。
+2023-04-16 16:15:36,884: 完成提取 subject_count 特征。
+2023-04-16 16:15:36,893: (35230, 9300)
+2023-04-16 16:15:36,894: (35230,)
+2023-04-16 16:15:36,935: Time elapsed for function subject_feature_extraction: 13.78 seconds
+2023-04-16 16:15:39,786: 开始提取 from_count 特征。
+2023-04-16 16:15:47,986: 完成提取 from_count 特征。
+2023-04-16 16:15:47,988: (35230, 15161)
+2023-04-16 16:15:47,989: (35230,)
+2023-04-16 16:15:47,989: 开始提取 to_count 特征。
+2023-04-16 16:15:53,576: 完成提取 to_count 特征。
+2023-04-16 16:15:53,578: (35230, 3454)
+2023-04-16 16:15:53,578: (35230,)
+2023-04-16 16:15:53,593: Time elapsed for function fromto_feature_extraction: 16.66 seconds
+2023-04-16 16:15:54,636: 开始提取 message_count 特征。
+2023-04-16 16:21:46,084: 完成提取 message_count 特征。
+2023-04-16 16:21:46,091: (35230, 213744)
+2023-04-16 16:21:46,120: (35230,)
+2023-04-16 16:21:46,483: Time elapsed for function extract_message_feature: 352.89 seconds
+2023-04-16 20:16:24,677: 目录 subject_feature 已存在
+2023-04-16 20:16:24,679: 目录 fromto_feature 已存在
+2023-04-16 20:16:24,679: 目录 message_feature 已存在
+2023-04-16 20:16:24,753: Time elapsed for function read_data: 0.06 seconds
+2023-04-16 20:22:53,683: (37201, 10)
+2023-04-16 20:22:53,822: (37201, 10)
+2023-04-16 20:23:00,295: Time elapsed for function parse_email_content: 395.54 seconds
+2023-04-16 20:23:01,452: Time elapsed for function process_structural_info: 1.16 seconds
+2023-04-16 20:23:02,306: 开始提取 subject_tfidf 特征。
+2023-04-16 20:23:08,449: 完成提取 subject_tfidf 特征。
+2023-04-16 20:23:08,450: (35230, 9300)
+2023-04-16 20:23:08,451: (35230,)
+2023-04-16 20:23:08,462: Time elapsed for function subject_feature_extraction: 7.01 seconds
+2023-04-16 20:23:09,333: 开始提取 from_tfidf 特征。
+2023-04-16 20:23:13,445: 完成提取 from_tfidf 特征。
+2023-04-16 20:23:13,447: (35230, 15161)
+2023-04-16 20:23:13,447: (35230,)
+2023-04-16 20:23:13,448: 开始提取 to_tfidf 特征。
+2023-04-16 20:23:17,646: 完成提取 to_tfidf 特征。
+2023-04-16 20:23:17,648: (35230, 3454)
+2023-04-16 20:23:17,648: (35230,)
+2023-04-16 20:23:17,675: Time elapsed for function fromto_feature_extraction: 9.21 seconds
+2023-04-16 20:26:55,135: 目录 subject_feature 已存在
+2023-04-16 20:26:55,136: 目录 fromto_feature 已存在
+2023-04-16 20:26:55,138: 目录 message_feature 已存在
+2023-04-16 20:26:55,194: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 20:33:33,359: (37201, 10)
+2023-04-16 20:33:33,499: (37201, 10)
+2023-04-16 20:33:44,878: Time elapsed for function parse_email_content: 409.68 seconds
+2023-04-16 20:33:46,076: Time elapsed for function process_structural_info: 1.20 seconds
+2023-04-16 20:33:47,157: 开始提取 subject_tfidf 特征。
+2023-04-16 20:33:56,864: 完成提取 subject_tfidf 特征。
+2023-04-16 20:33:56,866: (35230, 9300)
+2023-04-16 20:33:56,866: (35230,)
+2023-04-16 20:33:56,884: Time elapsed for function subject_feature_extraction: 10.81 seconds
+2023-04-16 20:33:58,427: 开始提取 from_tfidf 特征。
+2023-04-16 20:34:05,666: 完成提取 from_tfidf 特征。
+2023-04-16 20:34:05,668: (35230, 15161)
+2023-04-16 20:34:05,668: (35230,)
+2023-04-16 20:34:05,669: 开始提取 to_tfidf 特征。
+2023-04-16 20:34:10,524: 完成提取 to_tfidf 特征。
+2023-04-16 20:34:10,525: (35230, 3454)
+2023-04-16 20:34:10,525: (35230,)
+2023-04-16 20:34:10,538: Time elapsed for function fromto_feature_extraction: 13.65 seconds
+2023-04-16 20:34:11,385: 开始提取 message_tfidf 特征。
+2023-04-16 20:37:27,625: 完成提取 message_tfidf 特征。
+2023-04-16 20:37:27,626: (35230, 213744)
+2023-04-16 20:37:27,626: (35230,)
+2023-04-16 20:37:27,884: Time elapsed for function extract_message_feature: 197.35 seconds
+2023-04-16 21:02:46,614: 目录 subject_feature 已存在
+2023-04-16 21:02:46,616: 目录 fromto_feature 已存在
+2023-04-16 21:02:46,617: 目录 message_feature 已存在
+2023-04-16 21:02:47,726: 开始提取 subject_tfidf 特征。
+2023-04-16 21:02:53,067: 完成提取 subject_tfidf 特征。
+2023-04-16 21:02:53,072: (35230, 9295)
+2023-04-16 21:02:53,075: (35230,)
+2023-04-16 21:02:53,103: Time elapsed for function subject_feature_extraction: 6.47 seconds
+2023-04-16 21:02:54,175: 开始提取 from_tfidf 特征。
+2023-04-16 21:02:58,562: 完成提取 from_tfidf 特征。
+2023-04-16 21:02:58,564: (35230, 15165)
+2023-04-16 21:02:58,565: (35230,)
+2023-04-16 21:02:58,565: 开始提取 to_tfidf 特征。
+2023-04-16 21:03:02,370: 完成提取 to_tfidf 特征。
+2023-04-16 21:03:02,371: (35230, 3459)
+2023-04-16 21:03:02,371: (35230,)
+2023-04-16 21:03:02,384: Time elapsed for function fromto_feature_extraction: 9.28 seconds
+2023-04-16 21:03:03,178: 开始提取 message_tfidf 特征。
+2023-04-16 21:05:31,884: 完成提取 message_tfidf 特征。
+2023-04-16 21:05:31,884: (35230, 212430)
+2023-04-16 21:05:31,884: (35230,)
+2023-04-16 21:05:32,158: Time elapsed for function extract_message_feature: 149.77 seconds
+2023-04-16 21:07:04,608: 目录 subject_feature 已存在
+2023-04-16 21:07:04,609: 目录 fromto_feature 已存在
+2023-04-16 21:07:04,610: 目录 message_feature 已存在
+2023-04-16 21:07:05,634: 开始提取 subject_tfidf 特征。
+2023-04-16 21:07:13,187: 完成提取 subject_tfidf 特征。
+2023-04-16 21:07:13,188: (35230, 8658)
+2023-04-16 21:07:13,188: (35230,)
+2023-04-16 21:07:13,201: Time elapsed for function subject_feature_extraction: 8.58 seconds
+2023-04-16 21:07:14,091: 开始提取 from_tfidf 特征。
+2023-04-16 21:07:20,023: 完成提取 from_tfidf 特征。
+2023-04-16 21:07:20,025: (35230, 15043)
+2023-04-16 21:07:20,025: (35230,)
+2023-04-16 21:07:20,026: 开始提取 to_tfidf 特征。
+2023-04-16 21:07:25,908: 完成提取 to_tfidf 特征。
+2023-04-16 21:07:25,910: (35230, 3363)
+2023-04-16 21:07:25,910: (35230,)
+2023-04-16 21:07:25,923: Time elapsed for function fromto_feature_extraction: 12.72 seconds
+2023-04-16 21:07:26,723: 开始提取 message_tfidf 特征。
+2023-04-16 21:10:01,275: 完成提取 message_tfidf 特征。
+2023-04-16 21:10:01,278: (35230, 205650)
+2023-04-16 21:10:01,284: (35230,)
+2023-04-16 21:10:01,547: Time elapsed for function extract_message_feature: 155.62 seconds
+2023-04-16 21:13:18,929: 目录 subject_feature 已存在
+2023-04-16 21:13:18,932: 目录 fromto_feature 已存在
+2023-04-16 21:13:18,932: 目录 message_feature 已存在
+2023-04-16 21:13:19,973: 开始提取 subject_tfidf 特征。
+2023-04-16 21:14:37,490: 目录 subject_feature 已存在
+2023-04-16 21:14:37,492: 目录 fromto_feature 已存在
+2023-04-16 21:14:37,493: 目录 message_feature 已存在
+2023-04-16 21:14:38,583: 开始提取 subject_tfidf 特征。
+2023-04-16 21:14:46,409: 完成提取 subject_tfidf 特征。
+2023-04-16 21:14:46,410: (35230, 8658)
+2023-04-16 21:14:46,411: (35230,)
+2023-04-16 21:14:46,425: Time elapsed for function subject_feature_extraction: 8.91 seconds
+2023-04-16 21:14:47,305: 开始提取 from_tfidf 特征。
+2023-04-16 21:14:53,391: 完成提取 from_tfidf 特征。
+2023-04-16 21:14:53,392: (35230, 15043)
+2023-04-16 21:14:53,393: (35230,)
+2023-04-16 21:14:53,393: 开始提取 to_tfidf 特征。
+2023-04-16 21:14:59,212: 完成提取 to_tfidf 特征。
+2023-04-16 21:14:59,214: (35230, 3363)
+2023-04-16 21:14:59,214: (35230,)
+2023-04-16 21:14:59,226: Time elapsed for function fromto_feature_extraction: 12.80 seconds
+2023-04-16 21:15:00,045: 开始提取 message_tfidf 特征。
+2023-04-16 21:17:27,565: 完成提取 message_tfidf 特征。
+2023-04-16 21:17:27,567: (35230, 205650)
+2023-04-16 21:17:27,573: (35230,)
+2023-04-16 21:17:27,835: Time elapsed for function extract_message_feature: 148.61 seconds
+2023-04-16 22:22:43,761: 目录 subject_feature 已存在
+2023-04-16 22:22:43,764: 目录 fromto_feature 已存在
+2023-04-16 22:22:43,765: 目录 message_feature 已存在
+2023-04-16 22:22:43,834: Time elapsed for function read_data: 0.05 seconds
+2023-04-16 22:23:46,929: 目录 subject_feature 已存在
+2023-04-16 22:23:46,930: 目录 fromto_feature 已存在
+2023-04-16 22:23:46,930: 目录 message_feature 已存在
+2023-04-16 22:23:46,977: Time elapsed for function read_data: 0.03 seconds
+2023-04-16 22:24:30,164: 目录 subject_feature 已存在
+2023-04-16 22:24:30,166: 目录 fromto_feature 已存在
+2023-04-16 22:24:30,166: 目录 message_feature 已存在
+2023-04-16 22:24:30,221: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 22:41:22,519: 目录 subject_feature 已存在
+2023-04-16 22:41:22,521: 目录 fromto_feature 已存在
+2023-04-16 22:41:22,521: 目录 message_feature 已存在
+2023-04-16 22:41:22,578: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 22:43:57,857: 目录 subject_feature 已存在
+2023-04-16 22:43:57,859: 目录 fromto_feature 已存在
+2023-04-16 22:43:57,859: 目录 message_feature 已存在
+2023-04-16 22:43:57,912: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 22:48:51,234: 目录 subject_feature 已存在
+2023-04-16 22:48:51,235: 目录 fromto_feature 已存在
+2023-04-16 22:48:51,235: 目录 message_feature 已存在
+2023-04-16 22:48:51,289: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 22:54:50,200: 目录 subject_feature 已存在
+2023-04-16 22:54:50,204: 目录 fromto_feature 已存在
+2023-04-16 22:54:50,204: 目录 message_feature 已存在
+2023-04-16 22:54:50,311: Time elapsed for function read_data: 0.09 seconds
+2023-04-16 22:55:27,124: 目录 subject_feature 已存在
+2023-04-16 22:55:27,125: 目录 fromto_feature 已存在
+2023-04-16 22:55:27,125: 目录 message_feature 已存在
+2023-04-16 22:55:27,173: Time elapsed for function read_data: 0.04 seconds
+2023-04-16 23:02:54,806: (37201, 10)
+2023-04-16 23:02:55,247: (37201, 10)
+2023-04-16 23:03:19,942: 目录 subject_feature 已存在
+2023-04-16 23:03:19,945: 目录 fromto_feature 已存在
+2023-04-16 23:03:19,946: 目录 message_feature 已存在
+2023-04-16 23:07:46,081: 目录 subject_feature 已存在
+2023-04-16 23:07:46,083: 目录 fromto_feature 已存在
+2023-04-16 23:07:46,084: 目录 message_feature 已存在
+2023-04-16 23:09:24,166: 目录 subject_feature 已存在
+2023-04-16 23:09:24,167: 目录 fromto_feature 已存在
+2023-04-16 23:09:24,168: 目录 message_feature 已存在
+2023-04-16 23:13:28,514: 目录 subject_feature 已存在
+2023-04-16 23:13:28,516: 目录 fromto_feature 已存在
+2023-04-16 23:13:28,517: 目录 message_feature 已存在
+2023-04-16 23:13:28,671: Time elapsed for function read_data: 0.12 seconds
+2023-04-16 23:27:47,535: (37201, 10)
+2023-04-16 23:27:47,781: (37201, 10)
+2023-04-16 23:28:03,398: Time elapsed for function parse_email_content: 874.73 seconds
+2023-04-16 23:41:54,559: 目录 subject_feature 已存在
+2023-04-16 23:41:54,562: 目录 fromto_feature 已存在
+2023-04-16 23:41:54,563: 目录 message_feature 已存在
+2023-04-16 23:44:18,504: 目录 subject_feature 已存在
+2023-04-16 23:44:18,506: 目录 fromto_feature 已存在
+2023-04-16 23:44:18,507: 目录 message_feature 已存在
+2023-04-16 23:50:54,425: 目录 subject_feature 已存在
+2023-04-16 23:50:54,429: 目录 fromto_feature 已存在
+2023-04-16 23:50:54,430: 目录 message_feature 已存在
+2023-04-16 23:51:10,930: 目录 subject_feature 已存在
+2023-04-16 23:51:10,932: 目录 fromto_feature 已存在
+2023-04-16 23:51:10,933: 目录 message_feature 已存在
+2023-04-16 23:51:11,062: 目录 subject_feature 已存在
+2023-04-16 23:51:11,064: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,065: 目录 message_feature 已存在
+2023-04-16 23:51:11,217: 目录 subject_feature 已存在
+2023-04-16 23:51:11,219: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,220: 目录 message_feature 已存在
+2023-04-16 23:51:11,256: 目录 subject_feature 已存在
+2023-04-16 23:51:11,257: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,258: 目录 message_feature 已存在
+2023-04-16 23:51:11,330: 目录 subject_feature 已存在
+2023-04-16 23:51:11,331: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,332: 目录 message_feature 已存在
+2023-04-16 23:51:11,354: 目录 subject_feature 已存在
+2023-04-16 23:51:11,356: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,360: 目录 message_feature 已存在
+2023-04-16 23:51:11,549: 目录 subject_feature 已存在
+2023-04-16 23:51:11,551: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,552: 目录 message_feature 已存在
+2023-04-16 23:51:11,803: 目录 subject_feature 已存在
+2023-04-16 23:51:11,805: 目录 fromto_feature 已存在
+2023-04-16 23:51:11,806: 目录 message_feature 已存在
+2023-04-16 23:53:57,704: 目录 subject_feature 已存在
+2023-04-16 23:53:57,706: 目录 fromto_feature 已存在
+2023-04-16 23:53:57,707: 目录 message_feature 已存在
+2023-04-16 23:54:12,361: 目录 subject_feature 已存在
+2023-04-16 23:54:12,361: 目录 subject_feature 已存在
+2023-04-16 23:54:12,362: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,362: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,363: 目录 message_feature 已存在
+2023-04-16 23:54:12,363: 目录 message_feature 已存在
+2023-04-16 23:54:12,398: 目录 subject_feature 已存在
+2023-04-16 23:54:12,399: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,400: 目录 message_feature 已存在
+2023-04-16 23:54:12,548: 目录 subject_feature 已存在
+2023-04-16 23:54:12,548: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,549: 目录 message_feature 已存在
+2023-04-16 23:54:12,565: 目录 subject_feature 已存在
+2023-04-16 23:54:12,567: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,568: 目录 message_feature 已存在
+2023-04-16 23:54:12,691: 目录 subject_feature 已存在
+2023-04-16 23:54:12,693: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,694: 目录 message_feature 已存在
+2023-04-16 23:54:12,703: 目录 subject_feature 已存在
+2023-04-16 23:54:12,704: 目录 fromto_feature 已存在
+2023-04-16 23:54:12,705: 目录 message_feature 已存在
+2023-04-16 23:54:13,075: 目录 subject_feature 已存在
+2023-04-16 23:54:13,076: 目录 fromto_feature 已存在
+2023-04-16 23:54:13,077: 目录 message_feature 已存在
+2023-04-16 23:56:13,119: 目录 subject_feature 已存在
+2023-04-16 23:56:13,121: 目录 fromto_feature 已存在
+2023-04-16 23:56:13,121: 目录 message_feature 已存在
+2023-04-16 23:56:36,225: 目录 subject_feature 已存在
+2023-04-16 23:56:36,233: 目录 fromto_feature 已存在
+2023-04-16 23:56:36,234: 目录 message_feature 已存在
+2023-04-16 23:56:36,783: 目录 subject_feature 已存在
+2023-04-16 23:56:36,785: 目录 fromto_feature 已存在
+2023-04-16 23:56:36,786: 目录 message_feature 已存在
+2023-04-16 23:56:36,807: 目录 subject_feature 已存在
+2023-04-16 23:56:36,808: 目录 fromto_feature 已存在
+2023-04-16 23:56:36,809: 目录 message_feature 已存在
+2023-04-16 23:56:37,525: 目录 subject_feature 已存在
+2023-04-16 23:56:37,527: 目录 fromto_feature 已存在
+2023-04-16 23:56:37,528: 目录 message_feature 已存在
+2023-04-16 23:56:37,529: 目录 subject_feature 已存在
+2023-04-16 23:56:37,532: 目录 fromto_feature 已存在
+2023-04-16 23:56:37,533: 目录 message_feature 已存在
+2023-04-16 23:56:37,560: 目录 subject_feature 已存在
+2023-04-16 23:56:37,562: 目录 fromto_feature 已存在
+2023-04-16 23:56:37,563: 目录 message_feature 已存在
+2023-04-16 23:56:37,600: 目录 subject_feature 已存在
+2023-04-16 23:56:37,602: 目录 fromto_feature 已存在
+2023-04-16 23:56:37,603: 目录 message_feature 已存在
+2023-04-16 23:56:37,626: 目录 subject_feature 已存在
+2023-04-16 23:56:37,628: 目录 fromto_feature 已存在
+2023-04-16 23:56:37,628: 目录 message_feature 已存在
+2023-04-16 23:58:42,824: 目录 subject_feature 已存在
+2023-04-16 23:58:42,825: 目录 fromto_feature 已存在
+2023-04-16 23:58:42,826: 目录 message_feature 已存在
+2023-04-17 00:00:24,488: 目录 subject_feature 已存在
+2023-04-17 00:00:24,489: 目录 fromto_feature 已存在
+2023-04-17 00:00:24,490: 目录 message_feature 已存在
+2023-04-17 00:14:31,257: 目录 subject_feature 已存在
+2023-04-17 00:14:31,260: 目录 fromto_feature 已存在
+2023-04-17 00:14:31,260: 目录 message_feature 已存在
+2023-04-17 00:14:47,241: 目录 subject_feature 已存在
+2023-04-17 00:14:47,242: 目录 fromto_feature 已存在
+2023-04-17 00:14:47,244: 目录 message_feature 已存在
+2023-04-17 00:14:47,372: 目录 subject_feature 已存在
+2023-04-17 00:14:47,374: 目录 fromto_feature 已存在
+2023-04-17 00:14:47,374: 目录 message_feature 已存在
+2023-04-17 00:25:18,127: 目录 subject_feature 已存在
+2023-04-17 00:25:18,130: 目录 fromto_feature 已存在
+2023-04-17 00:25:18,131: 目录 message_feature 已存在
+2023-04-17 13:03:03,219: 目录 subject_feature 已存在
+2023-04-17 13:03:03,221: 目录 fromto_feature 已存在
+2023-04-17 13:03:03,222: 目录 message_feature 已存在
+2023-04-17 13:03:17,669: 目录 subject_feature 已存在
+2023-04-17 13:03:17,671: 目录 fromto_feature 已存在
+2023-04-17 13:03:17,672: 目录 fromto_feature 已存在
+2023-04-17 13:03:17,672: 目录 message_feature 已存在
+2023-04-17 13:03:17,675: 目录 message_feature 已存在
+2023-04-17 13:45:44,202: 目录 subject_feature 已存在
+2023-04-17 13:45:44,203: 目录 fromto_feature 已存在
+2023-04-17 13:45:44,203: 目录 message_feature 已存在
+2023-04-17 13:46:49,423: 目录 subject_feature 已存在
+2023-04-17 13:46:49,423: 目录 fromto_feature 已存在
+2023-04-17 13:46:49,424: 目录 message_feature 已存在
+2023-04-17 13:56:43,759: 目录 subject_feature 已存在
+2023-04-17 13:56:43,760: 目录 fromto_feature 已存在
+2023-04-17 13:56:43,761: 目录 message_feature 已存在
+2023-04-17 13:58:14,284: 目录 subject_feature 已存在
+2023-04-17 13:58:14,285: 目录 fromto_feature 已存在
+2023-04-17 13:58:14,285: 目录 message_feature 已存在
+2023-04-17 14:01:59,454: 目录 subject_feature 已存在
+2023-04-17 14:01:59,455: 目录 fromto_feature 已存在
+2023-04-17 14:01:59,455: 目录 message_feature 已存在
+2023-04-17 14:02:25,176: 目录 subject_feature 已存在
+2023-04-17 14:02:25,177: 目录 fromto_feature 已存在
+2023-04-17 14:02:25,177: 目录 message_feature 已存在
+2023-04-17 14:04:04,880: 目录 subject_feature 已存在
+2023-04-17 14:04:04,880: 目录 fromto_feature 已存在
+2023-04-17 14:04:04,880: 目录 message_feature 已存在
+2023-04-17 14:05:20,661: 目录 subject_feature 已存在
+2023-04-17 14:05:20,663: 目录 fromto_feature 已存在
+2023-04-17 14:05:20,663: 目录 message_feature 已存在
+2023-04-17 14:07:38,465: 目录 subject_feature 已存在
+2023-04-17 14:07:38,466: 目录 fromto_feature 已存在
+2023-04-17 14:07:38,466: 目录 message_feature 已存在
+2023-04-17 14:08:42,107: 目录 subject_feature 已存在
+2023-04-17 14:08:42,108: 目录 fromto_feature 已存在
+2023-04-17 14:08:42,108: 目录 message_feature 已存在
+2023-04-17 14:08:47,944: 目录 subject_feature 已存在
+2023-04-17 14:08:47,944: 目录 fromto_feature 已存在
+2023-04-17 14:08:47,945: 目录 message_feature 已存在
+2023-04-17 14:08:47,945: 目录 message_feature 已存在
+2023-04-17 19:06:12,605: 目录 subject_feature 已存在
+2023-04-17 19:06:12,606: 目录 fromto_feature 已存在
+2023-04-17 19:06:12,607: 目录 message_feature 已存在
+2023-04-17 19:06:14,024: Time elapsed for function process_structural_info: 0.68 seconds
+2023-04-17 19:06:14,642: 开始提取 subject_count 特征。
+2023-04-17 19:06:21,556: 完成提取 subject_count 特征。
+2023-04-17 19:06:21,558: (35230, 8658)
+2023-04-17 19:06:21,558: (35230,)
+2023-04-17 19:06:21,565: Time elapsed for function subject_feature_extraction: 7.54 seconds
+2023-04-17 19:06:22,190: 开始提取 from_count 特征。
+2023-04-17 19:06:27,797: 完成提取 from_count 特征。
+2023-04-17 19:06:27,799: (35230, 15043)
+2023-04-17 19:06:27,799: (35230,)
+2023-04-17 19:06:27,800: 开始提取 to_count 特征。
+2023-04-17 19:06:33,665: 完成提取 to_count 特征。
+2023-04-17 19:06:33,666: (35230, 3363)
+2023-04-17 19:06:33,666: (35230,)
+2023-04-17 19:06:33,674: Time elapsed for function fromto_feature_extraction: 12.11 seconds
+2023-04-17 19:06:34,242: 开始提取 message_count 特征。
+2023-04-17 19:08:40,412: 目录 subject_feature 已存在
+2023-04-17 19:08:40,413: 目录 fromto_feature 已存在
+2023-04-17 19:08:40,413: 目录 message_feature 已存在
+2023-04-17 19:08:41,772: Time elapsed for function process_structural_info: 0.70 seconds
+2023-04-17 19:08:42,400: 开始提取 subject_count 特征。
+2023-04-17 19:08:49,352: 完成提取 subject_count 特征。
+2023-04-17 19:08:49,353: (35230, 8658)
+2023-04-17 19:08:49,353: (35230,)
+2023-04-17 19:08:49,360: Time elapsed for function subject_feature_extraction: 7.59 seconds
+2023-04-17 19:08:50,005: 开始提取 from_count 特征。
+2023-04-17 19:08:55,699: 完成提取 from_count 特征。
+2023-04-17 19:08:55,700: (35230, 15043)
+2023-04-17 19:08:55,700: (35230,)
+2023-04-17 19:08:55,701: 开始提取 to_count 特征。
+2023-04-17 19:09:01,523: 完成提取 to_count 特征。
+2023-04-17 19:09:01,525: (35230, 3363)
+2023-04-17 19:09:01,525: (35230,)
+2023-04-17 19:09:01,533: Time elapsed for function fromto_feature_extraction: 12.17 seconds
+2023-04-17 19:09:02,104: 开始提取 message_count 特征。
+2023-04-17 19:11:38,680: 目录 subject_feature 已存在
+2023-04-17 19:11:38,680: 目录 fromto_feature 已存在
+2023-04-17 19:11:38,681: 目录 message_feature 已存在
+2023-04-17 19:11:42,518: Time elapsed for function process_structural_info: 0.73 seconds
+2023-04-17 19:11:43,150: 开始提取 subject_count 特征。
+2023-04-17 19:11:50,206: 完成提取 subject_count 特征。
+2023-04-17 19:11:50,207: (34998, 8628)
+2023-04-17 19:11:50,208: (34998,)
+2023-04-17 19:11:50,215: Time elapsed for function subject_feature_extraction: 7.70 seconds
+2023-04-17 19:11:50,856: 开始提取 from_count 特征。
+2023-04-17 19:11:56,466: 完成提取 from_count 特征。
+2023-04-17 19:11:56,467: (34998, 14970)
+2023-04-17 19:11:56,468: (34998,)
+2023-04-17 19:11:56,468: 开始提取 to_count 特征。
+2023-04-17 19:12:02,172: 完成提取 to_count 特征。
+2023-04-17 19:12:02,173: (34998, 3348)
+2023-04-17 19:12:02,173: (34998,)
+2023-04-17 19:12:02,180: Time elapsed for function fromto_feature_extraction: 11.96 seconds
+2023-04-17 19:12:02,776: 开始提取 message_count 特征。
+2023-04-17 19:13:20,376: 完成提取 message_count 特征。
+2023-04-17 19:13:20,376: (34998, 202348)
+2023-04-17 19:13:20,376: (34998,)
+2023-04-17 19:13:20,542: Time elapsed for function extract_message_feature: 78.36 seconds
+2023-04-17 19:13:21,186: 开始提取 subject_tfidf 特征。
+2023-04-17 19:13:27,957: 完成提取 subject_tfidf 特征。
+2023-04-17 19:13:27,959: (34998, 8628)
+2023-04-17 19:13:27,959: (34998,)
+2023-04-17 19:13:27,966: Time elapsed for function subject_feature_extraction: 7.42 seconds
+2023-04-17 19:13:28,598: 开始提取 from_tfidf 特征。
+2023-04-17 19:13:34,410: 完成提取 from_tfidf 特征。
+2023-04-17 19:13:34,411: (34998, 14970)
+2023-04-17 19:13:34,411: (34998,)
+2023-04-17 19:13:34,412: 开始提取 to_tfidf 特征。
+2023-04-17 19:13:40,259: 完成提取 to_tfidf 特征。
+2023-04-17 19:13:40,260: (34998, 3348)
+2023-04-17 19:13:40,261: (34998,)
+2023-04-17 19:13:40,273: Time elapsed for function fromto_feature_extraction: 12.31 seconds
+2023-04-17 19:13:40,880: 开始提取 message_tfidf 特征。
+2023-04-17 19:14:59,914: 完成提取 message_tfidf 特征。
+2023-04-17 19:14:59,914: (34998, 202348)
+2023-04-17 19:14:59,914: (34998,)
+2023-04-17 19:15:00,113: Time elapsed for function extract_message_feature: 79.84 seconds
+2023-04-19 17:57:40,609: 目录 subject_feature 已存在
+2023-04-19 17:57:40,611: 目录 fromto_feature 已存在
+2023-04-19 17:57:40,611: 目录 message_feature 已存在
+2023-04-19 17:57:44,627: Time elapsed for function process_structural_info: 0.70 seconds
+2023-04-19 17:57:45,340: 开始提取 subject_count 特征。
+2023-04-19 17:57:52,357: 完成提取 subject_count 特征。
+2023-04-19 17:57:52,359: (34998, 19011)
+2023-04-19 17:57:52,359: (34998,)
+2023-04-19 17:57:52,368: Time elapsed for function subject_feature_extraction: 7.74 seconds
+2023-04-19 17:57:52,995: 开始提取 from_count 特征。
+2023-04-19 17:57:58,647: 完成提取 from_count 特征。
+2023-04-19 17:57:58,649: (34998, 9433)
+2023-04-19 17:57:58,649: (34998,)
+2023-04-19 17:57:58,650: 开始提取 to_count 特征。
+2023-04-19 17:58:04,252: 完成提取 to_count 特征。
+2023-04-19 17:58:04,253: (34998, 2912)
+2023-04-19 17:58:04,254: (34998,)
+2023-04-19 17:58:04,262: Time elapsed for function fromto_feature_extraction: 11.89 seconds
+2023-04-19 17:58:04,841: 开始提取 message_count 特征。
+2023-04-19 17:59:32,515: 完成提取 message_count 特征。
+2023-04-19 17:59:32,517: (34998, 1193945)
+2023-04-19 17:59:32,524: (34998,)
+2023-04-19 17:59:33,402: Time elapsed for function extract_message_feature: 89.14 seconds
+2023-04-19 18:35:58,995: 目录 subject_feature 已存在
+2023-04-19 18:35:58,997: 目录 fromto_feature 已存在
+2023-04-19 18:35:58,998: 目录 message_feature 已存在
+2023-04-19 18:36:04,411: Time elapsed for function process_structural_info: 1.06 seconds
+2023-04-19 18:36:05,343: 开始提取 subject_count 特征。
+2023-04-19 18:36:14,616: 完成提取 subject_count 特征。
+2023-04-19 18:36:14,618: (34998, 10000)
+2023-04-19 18:36:14,618: (34998,)
+2023-04-19 18:36:14,627: Time elapsed for function subject_feature_extraction: 10.21 seconds
+2023-04-19 18:36:15,265: 开始提取 from_count 特征。
+2023-04-19 18:36:21,500: 完成提取 from_count 特征。
+2023-04-19 18:36:21,502: (34998, 10000)
+2023-04-19 18:36:21,502: (34998,)
+2023-04-19 18:36:21,503: 开始提取 to_count 特征。
+2023-04-19 18:36:27,626: 完成提取 to_count 特征。
+2023-04-19 18:36:27,628: (34998, 4221)
+2023-04-19 18:36:27,628: (34998,)
+2023-04-19 18:36:27,636: Time elapsed for function fromto_feature_extraction: 13.01 seconds
+2023-04-19 18:36:28,218: 开始提取 message_count 特征。
+2023-04-19 18:37:59,721: 完成提取 message_count 特征。
+2023-04-19 18:37:59,721: (34998, 10000)
+2023-04-19 18:37:59,722: (34998,)
+2023-04-19 18:38:00,794: Time elapsed for function extract_message_feature: 93.16 seconds
+2023-04-19 18:38:01,688: 开始提取 subject_tfidf 特征。
+2023-04-19 18:38:11,857: 完成提取 subject_tfidf 特征。
+2023-04-19 18:38:11,861: (34998, 10000)
+2023-04-19 18:38:11,864: (34998,)
+2023-04-19 18:38:11,883: Time elapsed for function subject_feature_extraction: 11.08 seconds
+2023-04-19 18:38:12,809: 开始提取 from_tfidf 特征。
+2023-04-19 18:38:19,987: 完成提取 from_tfidf 特征。
+2023-04-19 18:38:19,988: (34998, 10000)
+2023-04-19 18:38:19,988: (34998,)
+2023-04-19 18:38:19,989: 开始提取 to_tfidf 特征。
+2023-04-19 18:38:26,681: 完成提取 to_tfidf 特征。
+2023-04-19 18:38:26,684: (34998, 4221)
+2023-04-19 18:38:26,687: (34998,)
+2023-04-19 18:38:26,708: Time elapsed for function fromto_feature_extraction: 14.83 seconds
+2023-04-19 18:38:27,414: 开始提取 message_tfidf 特征。
+2023-04-19 18:40:10,717: 完成提取 message_tfidf 特征。
+2023-04-19 18:40:10,720: (34998, 10000)
+2023-04-19 18:40:10,725: (34998,)
+2023-04-19 18:40:11,659: Time elapsed for function extract_message_feature: 104.95 seconds
+2023-04-19 18:47:41,111: 目录 subject_feature 已存在
+2023-04-19 18:47:41,113: 目录 fromto_feature 已存在
+2023-04-19 18:47:41,113: 目录 message_feature 已存在
+2023-04-19 18:47:46,272: Time elapsed for function process_structural_info: 1.11 seconds
+2023-04-19 18:47:46,979: 开始提取 subject_count 特征。
+2023-04-19 18:47:56,211: 完成提取 subject_count 特征。
+2023-04-19 18:47:56,212: (34998, 5913)
+2023-04-19 18:47:56,212: (34998,)
+2023-04-19 18:47:56,222: Time elapsed for function subject_feature_extraction: 9.95 seconds
+2023-04-19 18:47:56,997: 开始提取 from_count 特征。
+2023-04-19 18:48:03,476: 完成提取 from_count 特征。
+2023-04-19 18:48:03,478: (34998, 4294)
+2023-04-19 18:48:03,479: (34998,)
+2023-04-19 18:48:03,480: 开始提取 to_count 特征。
+2023-04-19 18:48:09,816: 完成提取 to_count 特征。
+2023-04-19 18:48:09,817: (34998, 981)
+2023-04-19 18:48:09,817: (34998,)
+2023-04-19 18:48:09,825: Time elapsed for function fromto_feature_extraction: 13.60 seconds
+2023-04-19 18:48:10,416: 开始提取 message_count 特征。
+2023-04-19 18:49:43,731: 完成提取 message_count 特征。
+2023-04-19 18:49:43,731: (34998, 10000)
+2023-04-19 18:49:43,731: (34998,)
+2023-04-19 18:49:44,695: Time elapsed for function extract_message_feature: 94.87 seconds
+2023-04-19 18:49:45,594: 开始提取 subject_tfidf 特征。
+2023-04-19 18:49:58,350: 完成提取 subject_tfidf 特征。
+2023-04-19 18:49:58,355: (34998, 5913)
+2023-04-19 18:49:58,359: (34998,)
+2023-04-19 18:49:58,391: Time elapsed for function subject_feature_extraction: 13.69 seconds
+2023-04-19 18:49:59,507: 开始提取 from_tfidf 特征。
+2023-04-19 18:50:11,307: 完成提取 from_tfidf 特征。
+2023-04-19 18:50:11,313: (34998, 4294)
+2023-04-19 18:50:11,316: (34998,)
+2023-04-19 18:50:11,320: 开始提取 to_tfidf 特征。
+2023-04-19 18:50:25,041: 完成提取 to_tfidf 特征。
+2023-04-19 18:50:25,045: (34998, 981)
+2023-04-19 18:50:25,048: (34998,)
+2023-04-19 18:50:25,072: Time elapsed for function fromto_feature_extraction: 26.68 seconds
+2023-04-19 18:50:25,944: 开始提取 message_tfidf 特征。
+2023-04-19 18:51:59,746: 完成提取 message_tfidf 特征。
+2023-04-19 18:51:59,750: (34998, 10000)
+2023-04-19 18:51:59,758: (34998,)
+2023-04-19 18:52:00,753: Time elapsed for function extract_message_feature: 95.68 seconds
+2023-04-19 19:42:53,422: 目录 subject_feature 已存在
+2023-04-19 19:42:53,423: 目录 fromto_feature 已存在
+2023-04-19 19:42:53,424: 目录 message_feature 已存在
+2023-04-19 19:42:58,644: Time elapsed for function process_structural_info: 0.87 seconds
+2023-04-19 19:42:59,168: 开始提取 subject_count 特征。
+2023-04-19 19:43:07,653: 完成提取 subject_count 特征。
+2023-04-19 19:43:07,655: (34998, 5913)
+2023-04-19 19:43:07,655: (34998,)
+2023-04-19 19:43:07,657: Time elapsed for function subject_feature_extraction: 9.01 seconds
+2023-04-19 19:43:08,045: 开始提取 from_count 特征。
+2023-04-19 19:43:13,934: 完成提取 from_count 特征。
+2023-04-19 19:43:13,936: (34998, 4294)
+2023-04-19 19:43:13,937: (34998,)
+2023-04-19 19:43:13,939: 开始提取 to_count 特征。
+2023-04-19 19:43:19,672: 完成提取 to_count 特征。
+2023-04-19 19:43:19,674: (34998, 981)
+2023-04-19 19:43:19,674: (34998,)
+2023-04-19 19:43:19,675: Time elapsed for function fromto_feature_extraction: 12.02 seconds
+2023-04-19 19:43:20,265: 开始提取 subject_count 特征。
+2023-04-19 19:50:47,021: 目录 subject_feature 已存在
+2023-04-19 19:50:47,024: 目录 fromto_feature 已存在
+2023-04-19 19:50:47,024: 目录 message_feature 已存在
+2023-04-19 19:50:52,057: Time elapsed for function process_structural_info: 0.91 seconds
+2023-04-19 19:50:52,462: 开始提取 subject_count 特征。
+2023-04-19 19:51:00,105: 完成提取 subject_count 特征。
+2023-04-19 19:51:00,106: (34998, 5913)
+2023-04-19 19:51:00,107: (34998,)
+2023-04-19 19:51:00,110: Time elapsed for function subject_feature_extraction: 8.05 seconds
+2023-04-19 19:51:00,549: 开始提取 from_count 特征。
+2023-04-19 19:51:06,351: 完成提取 from_count 特征。
+2023-04-19 19:51:06,353: (34998, 4294)
+2023-04-19 19:51:06,353: (34998,)
+2023-04-19 19:51:06,355: 开始提取 to_count 特征。
+2023-04-19 19:51:12,218: 完成提取 to_count 特征。
+2023-04-19 19:51:12,219: (34998, 981)
+2023-04-19 19:51:12,219: (34998,)
+2023-04-19 19:51:12,220: Time elapsed for function fromto_feature_extraction: 12.11 seconds
+2023-04-19 19:51:12,818: 开始提取 body_count 特征。
+2023-04-19 19:52:43,007: 完成提取 body_count 特征。
+2023-04-19 19:52:43,009: (34998, 10000)
+2023-04-19 19:52:43,009: (34998,)
+2023-04-19 19:52:43,147: Time elapsed for function message_feature_extraction: 90.93 seconds
+2023-04-19 19:52:43,542: 开始提取 subject_tfidf 特征。
+2023-04-19 19:52:50,822: 完成提取 subject_tfidf 特征。
+2023-04-19 19:52:50,824: (34998, 5913)
+2023-04-19 19:52:50,824: (34998,)
+2023-04-19 19:52:50,826: Time elapsed for function subject_feature_extraction: 7.68 seconds
+2023-04-19 19:52:51,219: 开始提取 from_tfidf 特征。
+2023-04-19 19:52:57,299: 完成提取 from_tfidf 特征。
+2023-04-19 19:52:57,300: (34998, 4294)
+2023-04-19 19:52:57,300: (34998,)
+2023-04-19 19:52:57,302: 开始提取 to_tfidf 特征。
+2023-04-19 19:53:03,112: 完成提取 to_tfidf 特征。
+2023-04-19 19:53:03,113: (34998, 981)
+2023-04-19 19:53:03,113: (34998,)
+2023-04-19 19:53:03,114: Time elapsed for function fromto_feature_extraction: 12.29 seconds
+2023-04-19 19:53:03,692: 开始提取 body_tfidf 特征。
+2023-04-19 19:54:54,896: 完成提取 body_tfidf 特征。
+2023-04-19 19:54:54,902: (34998, 10000)
+2023-04-19 19:54:54,913: (34998,)
+2023-04-19 19:54:55,095: Time elapsed for function message_feature_extraction: 111.98 seconds
+2023-04-19 19:57:23,345: 目录 subject_feature 已存在
+2023-04-19 19:57:23,347: 目录 fromto_feature 已存在
+2023-04-19 19:57:23,347: 目录 message_feature 已存在
+2023-04-19 19:57:29,683: Time elapsed for function process_structural_info: 0.90 seconds
+2023-04-19 19:57:30,146: 开始提取 subject_count 特征。
+2023-04-19 19:57:39,698: 完成提取 subject_count 特征。
+2023-04-19 19:57:39,702: (34998, 5913)
+2023-04-19 19:57:39,704: (34998,)
+2023-04-19 19:57:39,707: Time elapsed for function subject_feature_extraction: 10.02 seconds
+2023-04-19 19:57:40,219: 开始提取 from_count 特征。
+2023-04-19 19:57:48,318: 完成提取 from_count 特征。
+2023-04-19 19:57:48,323: (34998, 4294)
+2023-04-19 19:57:48,326: (34998,)
+2023-04-19 19:57:48,329: 开始提取 to_count 特征。
+2023-04-19 19:57:54,515: 完成提取 to_count 特征。
+2023-04-19 19:57:54,516: (34998, 981)
+2023-04-19 19:57:54,516: (34998,)
+2023-04-19 19:57:54,518: Time elapsed for function fromto_feature_extraction: 14.81 seconds
+2023-04-19 19:57:55,325: 开始提取 message_count 特征。
+2023-04-19 19:59:44,380: 完成提取 message_count 特征。
+2023-04-19 19:59:44,387: (34998, 10000)
+2023-04-19 19:59:44,392: (34998,)
+2023-04-19 19:59:44,530: Time elapsed for function message_feature_extraction: 110.01 seconds
+2023-04-19 19:59:45,142: 开始提取 subject_tfidf 特征。
+2023-04-19 19:59:57,637: 完成提取 subject_tfidf 特征。
+2023-04-19 19:59:57,642: (34998, 5913)
+2023-04-19 19:59:57,646: (34998,)
+2023-04-19 19:59:57,649: Time elapsed for function subject_feature_extraction: 13.12 seconds
+2023-04-19 19:59:58,483: 开始提取 from_tfidf 特征。
+2023-04-19 20:00:06,685: 完成提取 from_tfidf 特征。
+2023-04-19 20:00:06,687: (34998, 4294)
+2023-04-19 20:00:06,687: (34998,)
+2023-04-19 20:00:06,689: 开始提取 to_tfidf 特征。
+2023-04-19 20:00:16,996: 完成提取 to_tfidf 特征。
+2023-04-19 20:00:17,002: (34998, 981)
+2023-04-19 20:00:17,006: (34998,)
+2023-04-19 20:00:17,009: Time elapsed for function fromto_feature_extraction: 19.36 seconds
+2023-04-19 20:00:18,103: 开始提取 message_tfidf 特征。
+2023-04-19 20:02:04,641: 完成提取 message_tfidf 特征。
+2023-04-19 20:02:04,646: (34998, 10000)
+2023-04-19 20:02:04,650: (34998,)
+2023-04-19 20:02:04,768: Time elapsed for function message_feature_extraction: 107.76 seconds
+2023-04-24 22:13:35,588: 目录 subject_feature 已存在
+2023-04-24 22:13:35,589: 目录 fromto_feature 已存在
+2023-04-24 22:13:35,590: 目录 message_feature 已存在
+2023-04-24 22:18:19,678: 目录 subject_feature 已存在
+2023-04-24 22:18:19,679: 目录 fromto_feature 已存在
+2023-04-24 22:18:19,680: 目录 message_feature 已存在
+2023-04-24 22:18:55,200: 目录 subject_feature 已存在
+2023-04-24 22:18:55,200: 目录 fromto_feature 已存在
+2023-04-24 22:18:55,200: 目录 message_feature 已存在
+2023-04-24 22:19:11,170: 目录 subject_feature 已存在
+2023-04-24 22:19:11,171: 目录 fromto_feature 已存在
+2023-04-24 22:19:11,171: 目录 message_feature 已存在
+2023-04-24 22:28:11,895: 目录 subject_feature 已存在
+2023-04-24 22:28:11,896: 目录 fromto_feature 已存在
+2023-04-24 22:28:11,896: 目录 message_feature 已存在
+2023-04-24 22:29:21,651: 目录 subject_feature 已存在
+2023-04-24 22:29:21,652: 目录 fromto_feature 已存在
+2023-04-24 22:29:21,653: 目录 message_feature 已存在
+2023-04-24 22:31:20,557: 目录 subject_feature 已存在
+2023-04-24 22:31:20,558: 目录 fromto_feature 已存在
+2023-04-24 22:31:20,558: 目录 message_feature 已存在
+2023-04-24 22:33:06,781: 目录 subject_feature 已存在
+2023-04-24 22:33:06,783: 目录 fromto_feature 已存在
+2023-04-24 22:33:06,783: 目录 message_feature 已存在
+2023-04-26 14:03:11,380: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-26 14:03:11,382: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-26 14:03:11,382: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-26 14:03:11,441: Time elapsed for function read_data: 0.04 seconds
+2023-04-26 14:03:13,300: Time elapsed for function process_structural_info: 1.08 seconds
+2023-04-26 14:03:13,775: 开始提取 subject_count 特征。
+2023-04-26 14:05:17,379: 成功创建目录：D:\py\pythonProjectSpam\features/subject_feature
+2023-04-26 14:05:17,382: 成功创建目录：D:\py\pythonProjectSpam\features/fromto_feature
+2023-04-26 14:05:17,383: 成功创建目录：D:\py\pythonProjectSpam\features/message_feature
+2023-04-26 14:05:17,441: Time elapsed for function read_data: 0.04 seconds
+2023-04-26 14:05:19,001: Time elapsed for function process_structural_info: 0.76 seconds
+2023-04-26 14:05:19,398: 开始提取 subject_count 特征。
+2023-04-26 14:06:51,817: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-26 14:06:51,818: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-26 14:06:51,819: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-26 14:06:51,876: Time elapsed for function read_data: 0.04 seconds
+2023-04-26 14:06:53,503: Time elapsed for function process_structural_info: 0.81 seconds
+2023-04-26 14:06:53,938: 开始提取 subject_count 特征。
+2023-04-26 14:07:03,330: 完成提取 subject_count 特征。
+2023-04-26 14:07:03,332: (34998, 5913)
+2023-04-26 14:07:03,332: (34998,)
+2023-04-26 14:07:03,334: Time elapsed for function subject_feature_extraction: 9.83 seconds
+2023-04-26 14:07:03,749: 开始提取 from_count 特征。
+2023-04-26 14:07:10,532: 完成提取 from_count 特征。
+2023-04-26 14:07:10,535: (34998, 4294)
+2023-04-26 14:07:10,535: (34998,)
+2023-04-26 14:07:10,536: 开始提取 to_count 特征。
+2023-04-26 14:07:17,443: 完成提取 to_count 特征。
+2023-04-26 14:07:17,444: (34998, 981)
+2023-04-26 14:07:17,444: (34998,)
+2023-04-26 14:07:17,446: Time elapsed for function fromto_feature_extraction: 14.11 seconds
+2023-04-26 14:07:18,059: 开始提取 message_count 特征。
+2023-04-26 14:09:04,714: 完成提取 message_count 特征。
+2023-04-26 14:09:04,726: (34998, 10000)
+2023-04-26 14:09:04,743: (34998,)
+2023-04-26 14:09:05,005: Time elapsed for function message_feature_extraction: 107.56 seconds
+2023-04-26 14:09:05,560: 开始提取 subject_tfidf 特征。
+2023-04-26 14:09:14,199: 完成提取 subject_tfidf 特征。
+2023-04-26 14:09:14,202: (34998, 5913)
+2023-04-26 14:09:14,202: (34998,)
+2023-04-26 14:09:14,205: Time elapsed for function subject_feature_extraction: 9.20 seconds
+2023-04-26 14:09:14,635: 开始提取 from_tfidf 特征。
+2023-04-26 14:09:21,726: 完成提取 from_tfidf 特征。
+2023-04-26 14:09:21,728: (34998, 4294)
+2023-04-26 14:09:21,728: (34998,)
+2023-04-26 14:09:21,730: 开始提取 to_tfidf 特征。
+2023-04-26 14:09:28,135: 完成提取 to_tfidf 特征。
+2023-04-26 14:09:28,136: (34998, 981)
+2023-04-26 14:09:28,136: (34998,)
+2023-04-26 14:09:28,138: Time elapsed for function fromto_feature_extraction: 13.93 seconds
+2023-04-26 14:09:28,744: 开始提取 message_tfidf 特征。
+2023-04-26 14:11:11,946: 完成提取 message_tfidf 特征。
+2023-04-26 14:11:11,951: (34998, 10000)
+2023-04-26 14:11:11,961: (34998,)
+2023-04-26 14:11:12,189: Time elapsed for function message_feature_extraction: 104.05 seconds
+2023-04-27 15:19:53,165: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:19:53,168: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:19:53,169: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 15:19:53,319: Time elapsed for function read_data: 0.12 seconds
+2023-04-27 15:20:36,972: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:20:36,973: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:20:36,974: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 15:20:37,070: Time elapsed for function read_data: 0.08 seconds
+2023-04-27 15:21:38,674: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:21:38,677: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:21:38,678: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 15:21:38,837: Time elapsed for function read_data: 0.13 seconds
+2023-04-27 15:46:58,266: (75106, 10)
+2023-04-27 15:46:58,527: (75106, 10)
+2023-04-27 15:47:12,055: Time elapsed for function parse_email_content: 1533.21 seconds
+2023-04-27 15:53:09,679: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:53:09,681: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:53:09,681: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 15:53:09,698: fg:07_full
+2023-04-27 15:53:09,698: 处理时间大约40mins，请耐心等待。
+2023-04-27 15:53:12,143: (66711, 10)
+2023-04-27 15:53:19,264: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:53:19,264: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:53:19,264: 目录 D:\py\pythonProjectSpam\features/subject_feature 已存在
+2023-04-27 15:53:19,265: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 15:53:19,265: 目录 D:\py\pythonProjectSpam\features/fromto_feature 已存在
+2023-04-27 15:53:19,265: 目录 D:\py\pythonProjectSpam\features/message_feature 已存在
+2023-04-27 17:49:57,174: None

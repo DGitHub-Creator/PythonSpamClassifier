@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year DZX.&#10;&#10;All rights reserved.&#10;&#10;This software is protected by copyright law and international treaties. No part of this software may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright owner.&#10;&#10;For permission requests, please contact the copyright owner at the address below.&#10;&#10;DZX&#10;&#10;xindemicro@outlook.com &#10;" />
+    <option name="myName" value="DZX" />
+  </copyright>
+</component>
