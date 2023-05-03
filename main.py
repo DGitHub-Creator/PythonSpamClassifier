@@ -1,28 +1,31 @@
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QPixmap, QPainter, QColor, QFont, QImage
-from PyQt5.QtCore import Qt
+import hashlib
+import os
 
-app = QApplication([])
-
-
-def create_image_with_text(text, font_color, file_name):
-    pixmap = QPixmap(200, 50)
-    pixmap.fill(Qt.white)
-
-    painter = QPainter(pixmap)
-    painter.setPen(QColor(font_color))
-    painter.setFont(QFont("Arial", 20))
-    painter.drawText(20, 30, text)
-    painter.end()
-
-    pixmap.save(file_name)
+import pandas as pd
 
 
-create_image_with_text("垃圾邮件", "red", "junk_email.png")
-create_image_with_text("正常邮件", "green", "normal_email.png")
-create_image_with_text("抱歉，不能识别！", "gray", "unknown_email.png")
+def calculate_md5(file_path):
+    hash_md5 = hashlib.md5()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_md5.update(chunk)
+    return hash_md5.hexdigest()
 
-app.quit()
-text1 = "垃圾邮件"
-text2 = "正常邮件"
-text3 = "抱歉，不能识别！"
+
+def calculate_md5_for_all_files_in_directory(directory):
+    md5_values = {}
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            md5_value = calculate_md5(file_path)
+            md5_values[file_path] = md5_value
+    return md5_values
+
+
+directory = './data'
+md5_values = calculate_md5_for_all_files_in_directory(directory)
+for file_path, md5_value in md5_values.items():
+    print(f"{file_path}: {md5_value}")
+#
+# email_data = pd.read_csv("data/email_06_full.csv")
+# print(email_data["body"][0])

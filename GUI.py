@@ -34,7 +34,7 @@ from PyQt5.QtWidgets import (
 )
 from wordcloud import WordCloud
 
-from src import single_classification_with_NB as NB_run
+from src import single_classification as model_run
 
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myappid")
 
@@ -96,7 +96,7 @@ class WordCloudWindow(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        icon = QIcon('icon\word_cloud_icon.png')
+        icon = QIcon(r'icon\word_cloud_icon.png')
         self.setWindowIcon(icon)
 
         central_widget = QWidget()
@@ -169,15 +169,15 @@ class MainWindow(QMainWindow):
         self.log_output.append(text)
 
     def initUI(self):
-        icon = QIcon('icon\spam_icon.png')
+        icon = QIcon(r'icon\spam_icon.png')
         self.setWindowIcon(icon)
 
-        self.icon = QIcon('icon\icon.png')
+        self.icon = QIcon(r'icon\icon.png')
         self.systray = QSystemTrayIcon(self.icon, None)
 
         # 创建系统托盘图标
         self.tray_icon = QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QIcon('icon\icon.png'))
+        self.tray_icon.setIcon(QIcon(r'icon\icon.png'))
         self.tray_icon.setVisible(True)
 
         # 创建系统托盘菜单
@@ -235,8 +235,9 @@ class MainWindow(QMainWindow):
 
         # 下拉框
         self.model_combo_box = QComboBox()
-        self.model_combo_box.addItem("朴素贝叶斯")
+        self.model_combo_box.addItem("Naive Bayes")
         self.model_combo_box.addItem("LSTM")
+        self.model_combo_box.addItem("Transformer")
         self.model_combo_box.setFixedSize(150, 30)
 
         # 输出框
@@ -329,7 +330,8 @@ class MainWindow(QMainWindow):
         self.choose_file_button.setEnabled(not checked)
 
     def generate_wordcloud(self, email_content):
-        wc = WordCloud(max_words=100, background_color='white', width=800, height=600)
+        wc = WordCloud(max_words=80, min_font_size=10, font_step=2, background_color='white',
+                       width=800, height=600)
         wc.generate(email_content)
 
         img_data = io.BytesIO()
@@ -374,10 +376,10 @@ class MainWindow(QMainWindow):
             model_name = self.model_combo_box.currentText()
             if self.file_radio.isChecked():
                 file_path = self.file_input.text()
-                email_content, email_label = NB_run.run_file(file_path, model_name)
+                email_content, email_label = model_run.run_file(file_path, model_name)
             elif self.content_radio.isChecked():
                 email_content = self.content_input.toPlainText()
-                email_label = NB_run.run_content(email_content, model_name)
+                email_content, email_label = model_run.run_content(email_content, model_name)
             else:
                 return
 
