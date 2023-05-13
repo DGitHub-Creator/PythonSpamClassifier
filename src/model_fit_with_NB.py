@@ -61,10 +61,12 @@ def load_features(data_dir, feature, n=-1):
     :return: data: numpy.ndarray，特征数据
     """
     # 获取数据存储目录的信息，例如从"from_feature"提取"from"
-    info = data_dir[:-8]
+    # print(data_dir)
+    info = data_dir[12:-8]
+    # print(info)
     # 如果数据存储目录为"from_feature"或"to_feature"，将其改为"fromto_feature"
-    if data_dir == "from_feature" or data_dir == "to_feature":
-        data_dir = "fromto_feature"
+    if data_dir == "../features/from_feature" or data_dir == "../features/to_feature":
+        data_dir = "../features/fromto_feature"
     # 构造特征数据的文件名
     features_filename = f"{data_dir}/{info}_{feature}_features.p"
     # 从文件中加载特征数据
@@ -81,7 +83,7 @@ def load_labels(data_dir, n=-1):
     :param n:int，要读取的文件路径。
     :return:data (obj): 读取的数据。
     """
-    data = pickle.load(open(f"{data_dir}/labels.p", "rb"))
+    data = pickle.load(open(f"../features/{data_dir}/labels.p", "rb"))
     return data[:n] if n != -1 else data
 
 
@@ -92,7 +94,7 @@ def structural_model():
     """
     print("structural_model:")
     # 读取邮件结构数据
-    structural_info = pd.read_csv("email_structure_full.csv")
+    structural_info = pd.read_csv("../data/email_structure_full.csv")
     # 将数据集划分为训练集和测试集
     x_train, x_test, y_train, y_test = train_test_split(structural_info[[
         "has_multipart", "has_html", "has_links", "has_attachments"
@@ -130,7 +132,7 @@ def subject_model(feature="count", n=-1, model_type="MB"):
     """
     print("subject_model:")
     # 设置数据存储目录
-    data_dir = "subject_feature"
+    data_dir = "../features/subject_feature"
     # 加载特征文件和标签文件
     X_set = load_features(data_dir, feature)
     labels = load_labels(data_dir, n)
@@ -177,7 +179,7 @@ def message_model(feature="count", n=-1, model_type="MB"):
     """
     print("message_model:")
     # 设置数据存储目录
-    data_dir = "message_feature"
+    data_dir = "../features/message_feature"
     # 加载特征文件和标签文件
     X_set = load_features(data_dir, feature)
     labels = load_labels(data_dir, n)
@@ -220,7 +222,7 @@ def comprehensive_model(feature="count", n=-1, model_type="MB"):
     print("comprehensive_model:")
     # 定义数据目录和特征名列表
     data_dirs = [
-        "message_feature", "subject_feature", "from_feature", "to_feature"
+        "../features/message_feature", "../features/subject_feature", "../features/from_feature", "../features/to_feature"
     ]
 
     # data_dirs = [
@@ -240,7 +242,7 @@ def comprehensive_model(feature="count", n=-1, model_type="MB"):
     # labels_filename = "message_feature/labels.p"
     labels = load_labels("message_feature", n)
     # 读取邮件结构信息，将其转化成稀疏矩阵
-    structural_info = pd.read_csv("email_structure_full.csv").iloc[:, :-1]
+    structural_info = pd.read_csv("../data/email_structure_full.csv").iloc[:, :-1]
     structural_info = structural_info.values[:n] if n != -1 else structural_info.values
     structural_info = csr_matrix(structural_info)
     print(len(X_sets), structural_info.shape)
@@ -280,7 +282,7 @@ def comprehensive_model(feature="count", n=-1, model_type="MB"):
     model = classifier(alpha=1)
     model.fit(x_train, y_train)
     # 保存训练好的模型
-    with open(f"./models/CombinedFeatNB_{feature}.p", "wb") as f:
+    with open(f"../models/CombinedFeatNB_{feature}.p", "wb") as f:
         pickle.dump(model, f)
     # 在测试集上进行预测并输出结果
     Y_pred = model.predict_proba(x_test)
@@ -376,13 +378,13 @@ def combined_model(feature="count", n=-1):
     """
     # 加载数据
     print("combined_model:")
-    X_body, X_sub = load_features("message_feature", feature), load_features("subject_feature", feature)
+    X_body, X_sub = load_features("../features/message_feature", feature), load_features("../features/subject_feature", feature)
     # X_body, X_sub = load_data(
     #     "message_feature/message_{}_features.p".format(feature)), load_data(
     #     "subject_feature/subject_{}_features.p".format(feature))
     n_body, n_sub = X_body.shape[1], X_sub.shape[1]
     # 加载结构信息数据
-    structural_info = pd.read_csv("email_structure_full.csv").iloc[:, :-1].values
+    structural_info = pd.read_csv("../data/email_structure_full.csv").iloc[:, :-1].values
     structural_info = csr_matrix(
         structural_info[:n]) if n != -1 else csr_matrix(structural_info)
     n_structural = structural_info.shape[1]
@@ -421,7 +423,7 @@ def combined_model(feature="count", n=-1):
     model = CombinedNB(n_body, n_sub, n_structural, a=best_alpha)
     model.fit(x_train, y_train)
     # 保存模型
-    with open("./models/CombinedProbNB_{}.p".format(feature), "wb") as f:
+    with open("../models/CombinedProbNB_{}.p".format(feature), "wb") as f:
         pickle.dump(model, f)
     # 在测试集上评估模型
     test_accuracy = np.mean(model.predict(x_test) == y_test)
