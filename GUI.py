@@ -239,7 +239,8 @@ class MainWindow(QMainWindow):
         self.model_combo_box = QComboBox()
         self.model_combo_box.addItem("Naive Bayes")
         self.model_combo_box.addItem("LSTM")
-        self.model_combo_box.addItem("Transformer")
+        self.model_combo_box.addItem("1D-CNN")
+        self.model_combo_box.addItem("BERT")
         self.model_combo_box.setFixedSize(150, 30)
 
         # 输出框
@@ -344,9 +345,14 @@ class MainWindow(QMainWindow):
             os.makedirs("image")
         current_time = time.strftime("%Y%m%d-%H%M%S")
         filename = "wordcloud-" + current_time + ".png"
-
         with open("image/" + filename, "wb") as f:
             f.write(img_data.read())
+
+        word_filename = "words-" + current_time + ".txt"
+        # 输出单词和系数到文件
+        with open("image/" + word_filename, 'w', encoding='utf-8') as file:
+            for word, coefficient in wc.words_.items():
+                file.write(f'{word}: {coefficient}\n')
 
         return base64.b64encode(img_data.getvalue())
 
@@ -379,9 +385,13 @@ class MainWindow(QMainWindow):
             if self.file_radio.isChecked():
                 file_path = self.file_input.text()
                 email_content, email_label = model_run.run_file(file_path, model_name)
+                if email_content == '' or email_label == '':
+                    return
             elif self.content_radio.isChecked():
                 email_content = self.content_input.toPlainText()
                 email_content, email_label = model_run.run_content(email_content, model_name)
+                if email_content == '' or email_label == '':
+                    return
             else:
                 return
 

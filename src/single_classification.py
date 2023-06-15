@@ -405,12 +405,11 @@ def process_email_data(email_data, model_name, feature=None):
             # 记录错误日志
             print("发生PickleError错误: {}".format(e))
             logging.error("发生PickleError错误: {}".format(e))
-    elif model_name in ("LSTM", "Transformer"):
-        max_vocab = 600000
-        max_len = 2000 if model_name == "LSTM" else 1000
+    elif model_name in ("LSTM", "1D-CNN", "BERT", "Transformer"):
         email_data['combined'] = email_data['from'] + ' ' + email_data['to'] + ' ' + email_data['body']
         messages = [stem_tokenizer(str(text)) for text in tqdm(email_data['combined'])]
-
+        model_name = "LSTM"
+        max_len = 2000 if model_name == "LSTM" else 1000
         tokenizer_path = project_directory_path + f"/data/vectokenizer{'_max_len=1000' if model_name == 'Transformer' else ''}.pickle"
         try:
             with open(tokenizer_path, 'rb') as handle:
@@ -452,7 +451,7 @@ def run_content_with_model(email_content, model_name, feature=None):
 
 @calculate_execution_time
 def run_file(file_path, model_name):
-    log_message(f"[!]{model_name}运行开始]")
+    log_message(f"[!]{model_name}运行开始")
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             file_contents = f.read()
@@ -460,16 +459,20 @@ def run_file(file_path, model_name):
         # 记录错误日志
         print("发生IOError错误: {}".format(e))
         logging.error("发生IOError错误: {}".format(e))
+        return '', ''
     except UnicodeDecodeError as e:
         # 记录错误日志
         print("发生UnicodeDecodeError错误: {}".format(e))
         logging.error("发生UnicodeDecodeError错误: {}".format(e))
+        return '', ''
     label = None
     if model_name == "Naive Bayes":
         file_contents, label = run_file_with_model(file_path, model_name, feature="tfidf")
     elif model_name == "LSTM":
         file_contents, label = run_file_with_model(file_path, model_name, feature=None)
-    elif model_name == "Transformer":
+    elif model_name == "1D-CNN":
+        file_contents, label = run_file_with_model(file_path, model_name, feature=None)
+    elif model_name == "BERT":
         file_contents, label = run_file_with_model(file_path, model_name, feature=None)
     else:
         log_message(f"没有{model_name}模型！")
@@ -481,12 +484,17 @@ def run_file(file_path, model_name):
 @calculate_execution_time
 def run_content(email_content, model_name):
     log_message(f"[!]{model_name}运行开始]")
+    if email_content == '':
+        log_message(f"[Error !] 没有邮件内容输入！")
+        return '', ''
     label = None
     if model_name == "Naive Bayes":
         email_content, label = run_content_with_model(email_content, model_name, feature="tfidf")
     elif model_name == "LSTM":
         email_content, label = run_content_with_model(email_content, model_name, feature=None)
-    elif model_name == "Transformer":
+    elif model_name == "1D-CNN":
+        email_content, label = run_content_with_model(email_content, model_name, feature=None)
+    elif model_name == "BERT":
         email_content, label = run_content_with_model(email_content, model_name, feature=None)
     else:
         log_message(f"没有{model_name}模型！")

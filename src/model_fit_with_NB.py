@@ -26,7 +26,7 @@ import pandas as pd
 from nltk.corpus import stopwords
 from scipy.sparse import csr_matrix, hstack
 from sklearn.base import BaseEstimator
-from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 from sklearn.model_selection import GridSearchCV, cross_validate, train_test_split
 from sklearn.naive_bayes import ComplementNB, MultinomialNB
 
@@ -124,7 +124,7 @@ def structural_model():
           f"测试集上的准确率：{accuracy}")
 
 
-def subject_model(feature="count", n=-1, model_type="MB"):
+def subject_model(feature="tfidf", n=-1, model_type="MB"):
     """
     实现基于主题数据的主题模型
     :param feature:str，特征类型，可选的值为 "count" 和 "tfidf"
@@ -171,7 +171,7 @@ def subject_model(feature="count", n=-1, model_type="MB"):
     return x_train, x_test, y_train, y_test
 
 
-def message_model(feature="count", n=-1, model_type="MB"):
+def message_model(feature="tfidf", n=-1, model_type="MB"):
     """
     实现基于邮件正文数据的邮件正文模型
     :param feature:str，特征类型，可选的值为 "count" 和 "tfidf"
@@ -211,7 +211,7 @@ def message_model(feature="count", n=-1, model_type="MB"):
 
 
 # 定义函数combined_model，参数包括特征(feature)类型，样本数(n)，模型类型(model_type)
-def comprehensive_model(feature="count", n=-1, model_type="MB"):
+def comprehensive_model(feature="tfidf", n=-1, model_type="MB"):
     """
     实现综合特征模型的训练与评估。
     通过使用多种特征（包括邮件内容、邮件主题、邮件发件人、邮件收件人、邮件结构等），并使用GridSearchCV实现交叉验证，确定最佳的超参数alpha。
@@ -224,7 +224,8 @@ def comprehensive_model(feature="count", n=-1, model_type="MB"):
     print("comprehensive_model:")
     # 定义数据目录和特征名列表
     data_dirs = [
-        "../features/message_feature", "../features/subject_feature", "../features/from_feature", "../features/to_feature"
+        "../features/message_feature", "../features/subject_feature", "../features/from_feature",
+        "../features/to_feature"
     ]
 
     # data_dirs = [
@@ -366,7 +367,7 @@ class CombinedNB(BaseEstimator):
 
 
 # 定义 combined_model 方法，用于训练并评估模型
-def combined_model(feature="count", n=-1):
+def combined_model(feature="tfidf", n=-1):
     """
     训练朴素贝叶斯模型，并评估其准确率
     :param feature:str, default="count"，特征类型，可选择 "count" 或 "tfidf"
@@ -380,7 +381,8 @@ def combined_model(feature="count", n=-1):
     """
     # 加载数据
     print("combined_model:")
-    X_body, X_sub = load_features("../features/message_feature", feature), load_features("../features/subject_feature", feature)
+    X_body, X_sub = load_features("../features/message_feature", feature), load_features("../features/subject_feature",
+                                                                                         feature)
     # X_body, X_sub = load_data(
     #     "message_feature/message_{}_features.p".format(feature)), load_data(
     #     "subject_feature/subject_{}_features.p".format(feature))
@@ -433,34 +435,158 @@ def combined_model(feature="count", n=-1):
     return x_train, x_test, y_train, y_test
 
 
+# 定义函数combined_model，参数包括特征(feature)类型，样本数(n)，模型类型(model_type)
+def comprehensive(feature="tfidf", n=-1, model_type="MB"):
+    """
+    实现综合特征模型的训练与评估。
+    通过使用多种特征（包括邮件内容、邮件主题、邮件发件人、邮件收件人、邮件结构等），并使用GridSearchCV实现交叉验证，确定最佳的超参数alpha。
+    最后根据最佳的alpha值训练模型，并对测试集进行预测评估。
+    :param feature:特征名称，可选'count'或'tfidf'
+    :param n:训练数据量，默认-1表示全部数据，否则选取前n条数据
+    :param model_type:分类器类型，可选"MB"（MultinomialNB）或"CB"（ComplementNB）
+    :return:训练集和测试集数据
+    """
+    print("comprehensive:")
+    # # 定义数据目录和特征名列表
+    # data_dirs = [
+    #     "../features/message_feature", "../features/subject_feature", "../features/from_feature",
+    #     "../features/to_feature"
+    # ]
+    #
+    # # data_dirs = [
+    # #     "message_feature"
+    # # ]
+    #
+    # features = [feature, feature, f"{feature}", f"{feature}"]
+    #
+    # # features = [feature]
+    #
+    # # 使用列表推导式和zip函数加载特征数据
+    # X_sets = [
+    #     load_features(data_dir, feat, n)
+    #     for data_dir, feat in zip(data_dirs, features)
+    # ]
+    # 加载标签数据
+    # labels_filename = "message_feature/labels.p"
+    labels = load_labels("message_feature", n)
+    # 读取邮件结构信息，将其转化成稀疏矩阵
+    structure_info = pd.read_csv("../data/email_structure_full.csv").iloc[:, :-1]
+    structure_info = structure_info.values[:n] if n != -1 else structure_info.values
+    structure_info = csr_matrix(structure_info)
+    # print(structure_info)
+    # print(len(X_sets), structure_info.shape)
+    # 水平拼接特征数据，构建输入数据矩阵
+    # X_set = hstack(X_sets + [structure_info])
+    # 划分训练集和测试集
+
+    subject_feature = load_features("../features/subject_feature", feature)
+    # print(subject_feature)
+    message_feature = load_features("../features/message_feature", feature)
+    # print(message_feature)
+
+    Xs = [
+        structure_info,
+        subject_feature,
+        message_feature,
+        hstack([structure_info , subject_feature]),
+        hstack([structure_info , message_feature]),
+        hstack([subject_feature , message_feature]),
+        hstack([structure_info , subject_feature , message_feature])
+    ]
+    Names = [
+        "structure_feature",
+        "subject_feature",
+        "message_feature",
+        "structure_subject_feature",
+        "structure_message_feature",
+        "subject_message_feature",
+        "structure_subject_message_feature"
+    ]
+
+    for X, name in zip(Xs, Names):
+        print("----------------------------------------------------------------")
+        # print(" ", name, ": ")
+        x_train, x_test, y_train, y_test = train_test_split(X,
+                                                            labels,
+                                                            shuffle=True,
+                                                            random_state=42,
+                                                            test_size=0.15)
+        # 定义alpha值列表，用于尝试不同的alpha值进行训练
+        alpha_list = [0.1, 1, 10, 100, 1000]
+        # 根据model_type选择分类器类型，MultinomialNB或ComplementNB
+        classifier = MultinomialNB if model_type == "MB" else ComplementNB
+        # 使用列表推导式进行交叉验证
+        results = [
+            cross_validate(classifier(alpha=a),
+                           x_train,
+                           y_train,
+                           scoring=["f1_weighted", "accuracy", "precision_weighted", "recall_weighted"],
+                           cv=5,
+                           return_train_score=True) for a in alpha_list
+        ]
+        # 提取交叉验证的f1值和准确率
+        f1_list = [result['test_f1_weighted'].mean() for result in results]
+        accuracy_list = [result['test_accuracy'].mean() for result in results]
+        precision_list = [result['test_precision_weighted'].mean() for result in results]
+        recall_list = [result['test_recall_weighted'].mean() for result in results]
+        # 获取最佳alpha值
+        best_alpha = alpha_list[np.argmax(f1_list)]
+        # 输出相关信息
+        print(f"{name}_{feature} 特征：")
+        # print(f1_list)
+        # print("最佳alpha值：", best_alpha)
+        # print("NB的5折交叉验证的最大f1值：", np.max(f1_list))
+        # print("NB的5折交叉验证的最大precision值：", precision_list[np.argmax(f1_list)])
+        # print("NB的5折交叉验证的最大recall值：", recall_list[np.argmax(f1_list)])
+        # print("NB的5折交叉验证的最大accuracy值：", accuracy_list[np.argmax(f1_list)])
+
+        # 选择5折交叉验证 f1最大对应的alpha值重新训练模型，并在测试集上评估
+        model = classifier(alpha=1)
+        model.fit(x_train, y_train)
+        # 保存训练好的模型
+        with open(f"../models/CombinedFeatNB_{name}_{feature}.p", "wb") as f:
+            pickle.dump(model, f)
+        # 在测试集上进行预测并输出结果
+        Y_pred = model.predict_proba(x_test)
+        y_pred = np.argmax(Y_pred, axis=1)
+        # y_pred = (Y_pred[:, 1] > 0.5).astype(int)
+        # 打印测试集上的f1值和准确率
+        print("测试集上的f1值：", f1_score(y_test, y_pred, average='weighted'))
+        print("测试集上的precision值：", precision_score(y_test, y_pred, average='weighted'))
+        print("测试集上的recall值：", recall_score(y_test, y_pred, average='weighted'))
+        print("\n测试集上的accuracy值：", accuracy_score(y_test, y_pred))
+        # print("测试集上的accuracy值：", np.mean(model.predict(x_test) == y_test))
+
+
 if __name__ == "__main__":
-    print("----------------------------------------------------------------")
-    structural_model()
+    # print("----------------------------------------------------------------")
+    # structural_model()
 
     # 依次对三种不同特征进行模型评估
-    print("----------------------------------------------------------------")
-    subject_model(feature="count")
-    print("----------------------------------------------------------------")
-    subject_model(feature="tfidf")
+    # print("----------------------------------------------------------------")
+    # subject_model(feature="count")
+    # print("----------------------------------------------------------------")
+    # subject_model(feature="tfidf")
     # print("----------------------------------------------------------------")
 
     # 对于不同的 feature 和 model_type，分别调用 message_model 函数，并输出结果
-    print("----------------------------------------------------------------")
-    message_model(feature="count", n=-1)
-    print("----------------------------------------------------------------")
-    message_model(feature="tfidf", n=-1)
+    # print("----------------------------------------------------------------")
+    # message_model(feature="count", n=-1)
+    # print("----------------------------------------------------------------")
+    # message_model(feature="tfidf", n=-1)
     # print("----------------------------------------------------------------")
 
     # 分别对三种特征进行模型训练和测试，并输出结果
-    print("----------------------------------------------------------------")
-    comprehensive_model(feature="count", n=-1)
-    print("----------------------------------------------------------------")
-    comprehensive_model(feature="tfidf", n=-1)
     # print("----------------------------------------------------------------")
+    # comprehensive_model(feature="count", n=-1)
+    print("----------------------------------------------------------------")
+    # comprehensive_model(feature="tfidf", n=-1)
+    comprehensive(feature="tfidf", n=-1)
+    print("----------------------------------------------------------------")
 
     # 使用三种特征分别调用combined_model2函数进行训练和测试
-    print("----------------------------------------------------------------")
-    combined_model(feature="count", n=-1)
-    print("----------------------------------------------------------------")
-    combined_model(feature="tfidf", n=-1)
+    # print("----------------------------------------------------------------")
+    # combined_model(feature="count", n=-1)
+    # print("----------------------------------------------------------------")
+    # combined_model(feature="tfidf", n=-1)
     # print("----------------------------------------------------------------")
